@@ -12,10 +12,12 @@ import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
-    <section className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 overflow-x-hidden h-screen ">
+    <section className="bg-black bg-[url('/Gradient.png')] bg-no-repeat bg-cover overflow-x-hidden h-screen ">
       <Navbar />
-      <HeroSection />
+      <HeroSection  />
+
       <HTLStrips />
+      <div className="h-48" />
       <AboutUs />
       <div className="h-48" />
       <PreviousEvents />

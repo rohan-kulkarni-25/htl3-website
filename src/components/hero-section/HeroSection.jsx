@@ -10,18 +10,18 @@ const HeroSection = () => {
         <img className="" src={HEROIMAGE} />
       </div>
       <div className="w-3/5 gap-y-12 classname='px-4' flex flex-col ">
-        <h1 className="text-9xl font-bold  text-center  ">HACK THE LEAGUE</h1>
+        <h1 className="text-9xl font-bold text-white  text-center  ">HACK THE LEAGUE</h1>
         <div className="text-center text-5xl font-semibold font-mono flex flex-row justify-evenly place-items-center gap-9">
-          <div className="flex-1 h-1 bg-white" />
-          <span>CHAPTER-3</span>
+          <div className="flex-1 h-1  bg-white" />
+          <span className="text-white">CHAPTER-3</span>
           <div className="flex-1 h-1 bg-white" />
         </div>
         <div className="flex flex-row justify-center gap-4">
-          <button className="px-6 py-4 border-purple-800 border rounded-lg text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center">
+          <button className="px-6 py-4 border-white border rounded-lg text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center text-white">
             <BsCalendarEvent />
             Pre-Register
           </button>
-          <button className="px-6 py-4 border-purple-800 border rounded-lg text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center">
+          <button className="px-6 py-4 border-white border rounded-lg text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center text-white">
             <FaDiscord />
             Join Discord
           </button>
