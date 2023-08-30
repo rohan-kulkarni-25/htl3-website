@@ -27,3 +27,16 @@
   .animate-mentors {
     animation: mentors 10s linear infinite;
   }
+
+  @keyframes sponsors {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .animate-sponsors {
+    animation: sponsors 10s linear infinite;
+  }

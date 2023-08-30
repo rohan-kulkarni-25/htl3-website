@@ -1,7 +1,7 @@
 import IMG1 from "../../assets/1.png";
 import IMG2 from "../../assets/2.png";
 import IMG3 from "../../assets/3.png";
-import IMG4 from "../../assets/4.png";
+import IMG4 from "../../assets/4.jpg";
 import IMG5 from "../../assets/5.png";
 
 const PreviousEvents = () => {
@@ -9,19 +9,19 @@ const PreviousEvents = () => {
     <section className=" mx-52 flex flex-col gap-24">
       <div className="flex flex-row gap-16 place-items-center ">
         <p className="h-1 flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
-        <h2 className="text-6xl font-bold">Previous Events</h2>
+        <h2 className="text-6xl font-bold text-white">Previous Events</h2>
       </div>
-      <div className="flex flex-row justify-evenly">
-        <img src={IMG1} className="flex-1" />
-        <div className="flex flex-1 flex-col place-content-end">
-          <img src={IMG2} />
-          <img src={IMG3} />
+      <div className="flex flex-row justify-evenly w-full h-96">
+        <img src={IMG1} className="w-72 rounded-lg" />
+        <div className="flex  flex-col place-content-end gap-4">
+          <img src={IMG2} className="w-96 h-48 rounded-lg" />
+          <img src={IMG3} className="w-96 h-48 rounded-lg" />
         </div>
-        <img src={IMG4} className=" w-64 h-64 place-self-end" />
-        <img src={IMG5} className="flex-1" />
+        <img src={IMG4} className=" w-64 h-64 place-self-end rounded-lg" />
+        <img src={IMG5} className="w-72 rounded-lg" />
       </div>
-      <div className="flex flex-col ">
-        <div className="bg-gray-400 rounded-lg h-36 flex flex-row justify-evenly place-items-center">
+      <div className="flex flex-col h-full w-full bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lg">
+        <div className=" h-36 flex flex-row justify-evenly place-items-center ">
           <p className="flex flex-row place-items-center gap-4">
             <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
               4.5K+
