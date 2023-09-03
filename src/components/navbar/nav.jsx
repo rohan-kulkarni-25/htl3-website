@@ -22,8 +22,8 @@ const Navbar = () => {
             }
         </div>
         
-        <ul className={`lg:flex  lg:pb-0 py-10 w-1/2 md:h-fit lg:py-0 left-2/4 space-y-9 lg:space-y-0 text-center    absolute lg:static lg:bg-opacity-0 text-white bg-black lg:backdrop-blur-none bg-opacity-30 backdrop-blur-2xl  rounded-lg lg:w-auto lg:pl-0 transition-all duration-500 ease-in ${open ? ' top-36 ':'top-[-490px]'} gap-10 lg:pt-6  xl:gap-20`}>
-                    <li >
+        <ul className={`lg:flex  lg:pb-0 py-10 w-1/2 md:h-fit lg:py-0 left-2/4  text-center space-y-9   absolute lg:static lg:bg-opacity-0 text-white bg-black lg:backdrop-blur-none bg-opacity-30 backdrop-blur-2xl  rounded-lg lg:w-auto lg:pl-0 transition-all duration-500 ease-in ${open ? ' top-36 ':'top-[-490px]'} gap-8 xl:gap-20`}>
+                    <li>
                         <a className="hover:text-gray-500" href="/">About</a>
                     </li>
                     <li>
