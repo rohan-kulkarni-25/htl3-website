@@ -11,6 +11,10 @@ export default {
         'gradients': "url('./public/bg.png)"
       }
     },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+      justiceLeague: ["justiceLeague", "cursive"],
+    },
   },
   plugins: [],
 }
