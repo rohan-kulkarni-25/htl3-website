@@ -15,14 +15,18 @@ const HeroSection = () => {
           <div className="flex-1 h-1 bg-white" />
         </div>
         <div className="flex flex-row justify-center gap-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3XwVfAIzIamPxMRl32ZD9vT2mzKMnkJ6KSSNUKNrLMhKceA/viewform" target="_blank">
           <button className="px-4 py-3 border-[#4652DD] border rounded-2xl text-sm md:text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center text-white ">
             <BsCalendarEvent />
-            Pre-Register
+            Pre-Register 
           </button>
-          <button className="px-3 md:px4  border-[#4652DD] border  rounded-2xl text-sm md:text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center text-white">
+          </a>
+          <a href="https://discord.com/invite/fxP5t2w2b9" target="_blank">
+          <button className="px-4 py-3  border-[#4652DD] border  rounded-2xl text-sm md:text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center text-white">
             <FaDiscord />
             Join Discord
           </button>
+          </a>
         </div>
       </div>
  

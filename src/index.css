@@ -20,23 +20,23 @@
       transform: translateX(0%);
     }
     100% {
-      transform: translateX(-80%);
+      transform: translateX(-1750%);
     }
   }
   
   .animate-mentors {
-    animation: mentors 10s linear infinite;
+    animation: mentors 30s linear infinite;
   }
 
   @keyframes sponsors {
     0% {
-      transform: translateX(0%);
+      transform: translateX(-550%);
     }
     100% {
-      transform: translateX(100%);
+      transform: translateX(150%);
     }
   }
   
   .animate-sponsors {
-    animation: sponsors 10s linear infinite;
+    animation: sponsors 5s linear infinite;
   }
