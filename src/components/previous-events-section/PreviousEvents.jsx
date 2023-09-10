@@ -31,25 +31,25 @@ const PreviousEvents = () => {
         <div className=" h-36 flex flex-row justify-evenly place-items-center ">
           <p className="flex flex-row place-items-center gap-4">
             <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
-              4.5K+
+              3.2K+
             </span>
-            <span className="text-white font-medium text-3xl">Hackers</span>
+            <span className="text-white font-medium text-3xl">Developer Community</span>
           </p>
           <p className="flex flex-row place-items-center gap-4">
             <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
-              55+
+              10+
             </span>
-            <span className="text-white font-medium text-3xl">Countries</span>
+            <span className="text-white font-medium text-3xl">Cities</span>
           </p>
           <p className="flex flex-row place-items-center gap-4">
             <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
-              48+
+              20+
             </span>
-            <span className="text-white font-medium text-3xl">Hack Hours</span>
+            <span className="text-white font-medium text-3xl">Sessions</span>
           </p>
           <p className="flex flex-row place-items-center gap-4">
             <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700">
-              460+
+              200+
             </span>
             <span className="text-white font-medium text-3xl">Projects</span>
           </p>
