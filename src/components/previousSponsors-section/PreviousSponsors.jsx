@@ -1,4 +1,19 @@
-import Polygon from "../../assets/sponsor.png";
+
+import Zeeve from "../../assets/sponsors/Zeeve.png";
+import fire from "../../assets/sponsors/5ire.webp";
+import Appwrite from "../../assets/sponsors/AppWrite.png";
+import CNCF from "../../assets/sponsors/cncf.png";
+import DigitalOcean from "../../assets/sponsors/DigitalOcean.png";
+import Dojima from "../../assets/sponsors/Dojima.png";
+import Github from "../../assets/sponsors/github.png";
+import Interswap from "../../assets/sponsors/Interswap.png";
+import Azure from "../../assets/sponsors/Azure.png";
+import MLH from "../../assets/sponsors/mlh.png";
+import Polygon from "../../assets/sponsors/Polygon.png";
+import Postman from "../../assets/sponsors/postman.png";
+import Telos from "../../assets/sponsors/Telos 2.jpg";
+import WallectConnect from "../../assets/sponsors/WallectConnect.png";
+
 
 const PreviousSponsors = () => {
   return (
@@ -9,36 +24,48 @@ const PreviousSponsors = () => {
 
       </div>
       <div className="flex overflow-hidden overflow-x-clip items-center mb-8  h-48 bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lg ">
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Zeeve} />
         </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={fire} />
         </div>
 
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Appwrite} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={CNCF} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={DigitalOcean} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Dojima} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Github} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Interswap} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Azure} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={MLH} />
+        </div>
+        <div className="flex-none w-32  mr-8 animate-sponsors">
           <img src={Polygon} />
         </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Postman} />
         </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={Telos} />
         </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
-        </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
-        </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
-        </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
-        </div>
-        <div className="flex-none w-fit  mr-8 animate-sponsors">
-          <img src={Polygon} />
+        <div className="flex-none w-32  mr-8 animate-sponsors">
+          <img src={WallectConnect} />
         </div>
       </div>
     </section>

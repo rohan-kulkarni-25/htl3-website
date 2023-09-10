@@ -9,9 +9,9 @@ const Footer = () => {
         <img src={LOGO} className=" w-32 my-4" />
         <div className="flex flex-col text-xl font-medium text-center md:text-left   text-white gap-3">
           <h1 className=" font-semibold" >About</h1>
-          <a className=" font-light">Chapter-1</a>
-          <a className=" font-light">Chapter-2</a>
-          <a className=" font-light">Code of Conduct</a>
+          <a href="https://www.hacktheleague.com/hacktheleague.html" className="font-light" target="_blank">Chapter-1</a>
+          <a href="https://www.hacktheleague.com/" className=" font-light" target="_blank">Chapter-2</a>
+          <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className=" font-light" target="_blank">Code of Conduct</a>
         </div>
         <div className="flex flex-col text-xl font-medium text-center md:text-left  text-white gap-3 my-4" >
           <h1 className=" font-semibold">Explore</h1>
