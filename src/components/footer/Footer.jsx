@@ -20,10 +20,10 @@ const Footer = () => {
           <a className=" font-light">Sponsor Us</a>
         </div>
         <div className="flex flex-row justify-evenly text-3xl md:place-self-end gap-4 my-4">
-          <CiMail color="white"/>
-          <img src={x} className=" w-7 h-7" color="white"/>
-          <CiInstagram color="white"/>
-          <FaLinkedin color="white"/>
+          <a href="mailto:support@hacktheleague.tech"><CiMail color="white"/></a>
+          <a href="https://twitter.com/HackTheLeague" target="_blank"><img src={x} className=" w-7 h-7" color="white"/></a>
+          <a href="https://instagram.com/hack_the_league" target="_blank"><CiInstagram color="white"/></a>
+          <a href="https://www.linkedin.com/company/hack-the-league/" target="_blank"><FaLinkedin color="white"/></a>
         </div>
       </div>
       <div className="h-1 bg-white" />
