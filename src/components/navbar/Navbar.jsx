@@ -27,12 +27,17 @@ const Navbar = () => {
         } gap-10 lg:pt-6  xl:gap-20 md:text-2xl md:font-semibold`}
       >
         <li>
-          <a className="hover:text-white" href="/">
+          <a className="hover:text-white" href="#about">
             About
           </a>
         </li>
         <li>
-          <a className="hover:text-white" href="/">
+          <a
+            className="hover:text-white"
+            href="https://chapter2-htl.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          >
             Chapter-2
           </a>
         </li>

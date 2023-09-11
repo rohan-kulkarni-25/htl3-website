@@ -2,9 +2,14 @@ import TEAM from "./../../assets/Team_ill.png";
 
 const AboutUs = () => {
   return (
-    <section className="mx-7 md:mx-12 2xl:mx-48 flex flex-col gap-24">
+    <section
+      className="mx-7 md:mx-12 2xl:mx-48 flex flex-col gap-24"
+      id="about"
+    >
       <div className="flex flex-row gap-7 place-items-center ">
-        <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white">About Us</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white">
+          About Us
+        </h2>
         <p className="h-1 flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
       </div>
       <div className="flex flex-col md:flex-col lg:flex-row xl:flex-row gap-16 place-items-center">
