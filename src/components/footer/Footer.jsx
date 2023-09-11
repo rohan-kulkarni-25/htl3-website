@@ -39,8 +39,15 @@ const Footer = () => {
         </div>
         <div className="flex flex-col text-xl font-medium text-center md:text-left  text-white gap-3 my-4">
           <h1 className=" font-semibold">Explore</h1>
-          <a className=" font-light">Previous Events</a>
-          <a className=" font-light">Upcoming Events</a>
+          <a
+            className=" font-light"
+            href="https://chapter2-htl.vercel.app/meetups.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Previous Events
+          </a>
+          {/* <a className=" font-light ">Upcoming Events</a> */}
           <a className=" font-light">Sponsor Us</a>
         </div>
         <div className="flex flex-row justify-evenly text-3xl md:place-self-end gap-4 my-4">
