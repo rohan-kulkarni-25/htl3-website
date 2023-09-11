@@ -15,34 +15,31 @@ const PreviousEvents = () => {
         </h2>
       </div>
 
-      <div className="flex flex-col md:flex-row  justify-center  w-full h-auto md:h-96 md:gap-6">
-        <img alt="logo" src={IMG1} className="w-full  md:w-72  rounded-lg" />
-        <div className="flex flex-col place-content-end gap-4">
-          <img
-            alt="logo"
-            src={IMG2}
-            className="w-full h-full md:w-96  rounded-lg "
-          />
-          <img
-            alt="logo"
-            src={IMG3}
-            className="w-full h-full md:w-96 rounded-lg"
-          />
-        </div>
-        <div className="flex flex-col place-content-end gap-4">
-          <img
-            alt="logo"
-            src={IMG4}
-            className="w-full h-full md:w-96  rounded-lg "
-          />
-          <img
-            alt="logo"
-            src={IMG5}
-            className="w-full h-full md:w-96  rounded-lg"
-          />
+      <div className="flex flex-col md:flex-row  justify-center place-items-center  w-full md:h-128 overflow-hidden md:gap-6 my-24">
+        <div className="h-96">
+          <img alt="logo" src={IMG1} className="my-auto rounded-lg" />
         </div>
 
-        <img alt="logo" src={IMG6} className="w-full md:w-72 rounded-lg" />
+        <div className="flex flex-col place-content-end gap-4 ">
+          <div className="w-96">
+            <img alt="logo" src={IMG2} className="     rounded-lg" />
+          </div>
+          <div className="w-96">
+            <img alt="logo" src={IMG3} className=" rounded-lg" />
+          </div>
+        </div>
+        <div className="flex flex-col place-content-end gap-4 ">
+          <div className="w-96">
+            <img alt="logo" src={IMG4} className="  rounded-lg" />
+          </div>
+          <div className="w-96">
+            <img alt="logo" src={IMG5} className=" rounded-lg" />
+          </div>
+        </div>
+
+        <div className="h-96">
+          <img alt="logo" src={IMG6} className="my-auto rounded-lg" />
+        </div>
       </div>
 
       <div className="flex flex-col h-full w-full bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lg">
