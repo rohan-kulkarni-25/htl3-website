@@ -24,47 +24,47 @@ const PreviousSponsors = () => {
       </div>
       <div className="flex overflow-hidden overflow-x-clip items-center mb-8  h-48 bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lg ">
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Zeeve} className="grayscale"/>
+          <img alt="logo" src={Zeeve} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={fire} className="grayscale"/>
+          <img alt="logo" src={fire} className="grayscale" />
         </div>
 
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Appwrite} className="grayscale"/>
+          <img alt="logo" src={Appwrite} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={CNCF} className="grayscale"/>
+          <img alt="logo" src={CNCF} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={DigitalOcean} className="grayscale"/>
+          <img alt="logo" src={DigitalOcean} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Dojima} className="grayscale"/>
+          <img alt="logo" src={Dojima} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Github} className="grayscale"/>
+          <img alt="logo" src={Github} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Interswap} className="grayscale"/>
+          <img alt="logo" src={Interswap} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Azure} className="grayscale"/>
+          <img alt="logo" src={Azure} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={MLH} className="grayscale"/>
+          <img alt="logo" src={MLH} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Polygon} className="grayscale"/>
+          <img alt="logo" src={Polygon} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Postman} className="grayscale" />
+          <img alt="logo" src={Postman} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={Telos} className="grayscale"/>
+          <img alt="logo" src={Telos} className="grayscale" />
         </div>
         <div className="flex-none w-32  mr-8 animate-sponsors">
-          <img loading="lazy" src={WallectConnect} className="grayscale"/>
+          <img alt="logo" src={WallectConnect} className="grayscale" />
         </div>
       </div>
     </section>

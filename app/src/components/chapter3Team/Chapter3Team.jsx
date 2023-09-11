@@ -1,4 +1,4 @@
-import TeamCard from "./TeamCard";
+import TeamCard from "../chapter2Team/TeamCard";
 import JatinImage from "../../assets/team3/Jatin_Pandya.png";
 import SakshamImage from "../../assets/team3/Saksham.jpg";
 import ShreyanshImage from "../../assets/team3/Shreyansh.jpg";
@@ -14,11 +14,11 @@ import ShivangImage from "../../assets/team3/Shivang_Parmar.jpg";
 import LaveenaImage from "../../assets/team3/Laveena_Chetwani.jpg";
 import NeelImage from "../../assets/team3/Neel_Shah.jpeg";
 import ParulImage from "../../assets/team3/Parul_Yaduvanshi.jpg";
-import PriyanshiImage from "../../assets/team3/Priyanshi_Rai.webp";
+import PriyanshiImage from "../../assets/team3/Priyanshi_Rai.jpg";
 import ShraavaniImage from "../../assets/team3/Shraavani_Tople.jpg";
 import VaishnaviImage from "../../assets/team3/Vaishnavi_Joshi.jpg";
 import KhushalImage from "../../assets/team3/Khushal_Ghathalia.jpg";
-import HarshitImage from "../../assets/team2/8.Harshit_Goyal.png";
+import HarshitImage from "../../assets/team3/Harshit_Goyal.png";
 import VinayakImage from "../../assets/team3/Vinayak_Kesharwani.jpeg";
 
 const Chapter3Team = () => {

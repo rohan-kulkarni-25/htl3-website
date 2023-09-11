@@ -1,6 +1,6 @@
 import HTLStrips from "./components/HTLStrips/HTLStrips";
 import AboutUs from "./components/aboutus-section/AboutUs";
-import Chapter3Team from "./components/chapter2Team/Chapter3Team";
+import Chapter3Team from "./components/chapter3Team/Chapter3Team";
 import Footer from "./components/footer/Footer";
 import HeroSection from "./components/hero-section/HeroSection";
 import Navbar from "./components/navbar/Navbar";
@@ -14,7 +14,7 @@ const App = () => {
       <Navbar />
       <div className="bg-frame bg-no-repeat bg-center">
         <HeroSection />
-        <div className="h-12" />
+        <div className="h-20" />
         <HTLStrips />
         <div className="h-48" />
       </div>

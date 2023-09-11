@@ -4,7 +4,7 @@ const TeamCard = ({ imgSrc, name }) => {
     <div className="flex flex-col items-center">
       <div className="rounded-full bg-purple-600 p-2">
         <div className="rounded-full h-36 w-36 overflow-hidden">
-          <img src={imgSrc} loading="lazy" />
+          <img src={imgSrc} alt="img" className="w-36"/>
         </div>
       </div>
       <span className="text-white text-center font-medium text-xl">{name}</span>

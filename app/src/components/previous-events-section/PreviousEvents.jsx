@@ -1,8 +1,9 @@
-// import IMG1 from "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu172_xpwuuh.jpg";
-// import IMG2 from "../../assets/2.jpg";
-// import IMG3 from "../../assets/3.jpg";
-// import IMG4 from "../../assets/4.jpg";
-// import IMG5 from "../../assets/5.jpg";
+import IMG1 from "../../assets/events/1.webp";
+import IMG2 from "../../assets/events/2.webp";
+import IMG3 from "../../assets/events/3.webp";
+import IMG4 from "../../assets/events/4.webp";
+import IMG5 from "../../assets/events/5.webp";
+import IMG6 from "../../assets/events/6.webp";
 
 const PreviousEvents = () => {
   return (
@@ -15,53 +16,33 @@ const PreviousEvents = () => {
       </div>
 
       <div className="flex flex-col md:flex-row  justify-center  w-full h-auto md:h-96 md:gap-6">
-        <img
-          loading="lazy"
-          src={
-            "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu172_xpwuuh.jpg"
-          }
-          className="w-full  md:w-72  rounded-lg"
-        />
+        <img alt="logo" src={IMG1} className="w-full  md:w-72  rounded-lg" />
         <div className="flex flex-col place-content-end gap-4">
           <img
-            loading="lazy"
-            src={
-              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu171_i9gsod.jpg"
-            }
-            className="w-full h-full md:w-96 md:h-48 rounded-lg "
+            alt="logo"
+            src={IMG2}
+            className="w-full h-full md:w-96  rounded-lg "
           />
           <img
-            loading="lazy"
-            src={
-              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu190_jvsmmm.jpg"
-            }
-            className="w-full h-full md:w-96 md:h-48 rounded-lg"
+            alt="logo"
+            src={IMG3}
+            className="w-full h-full md:w-96 rounded-lg"
           />
         </div>
         <div className="flex flex-col place-content-end gap-4">
           <img
-            loading="lazy"
-            src={
-              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu152_fwuhv4.jpg"
-            }
-            className="w-full h-full md:w-96 md:h-48 rounded-lg "
+            alt="logo"
+            src={IMG4}
+            className="w-full h-full md:w-96  rounded-lg "
           />
           <img
-            loading="lazy"
-            src={
-              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417129/Hacktheleagu427_eywuui.jpg"
-            }
-            className="w-full h-full md:w-96 md:h-48 rounded-lg"
+            alt="logo"
+            src={IMG5}
+            className="w-full h-full md:w-96  rounded-lg"
           />
         </div>
 
-        <img
-          loading="lazy"
-          src={
-            "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu398_c6tyvm.jpg"
-          }
-          className="w-full md:w-72 rounded-lg"
-        />
+        <img alt="logo" src={IMG6} className="w-full md:w-72 rounded-lg" />
       </div>
 
       <div className="flex flex-col h-full w-full bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lg">
