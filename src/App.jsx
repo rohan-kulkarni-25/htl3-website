@@ -1,6 +1,6 @@
 import HTLStrips from "./components/HTLStrips/HTLStrips";
 import AboutUs from "./components/aboutus-section/AboutUs";
-import Chapter2Team from "./components/chapter2Team/Chapter2Team";
+// import Chapter2Team from "./components/chapter2Team/Chapter2Team";
 import Chapter3Team from "./components/chapter2Team/Chapter3Team";
 import PreviousEvents from "./components/previous-events-section/PreviousEvents";
 import PreviousMentors from "./components/previousMentors-section/PreviousMentors";
