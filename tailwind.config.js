@@ -13,7 +13,7 @@ export default {
     },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
-      justiceLeague: ["justiceLeague", "cursive"],
+      justiceLeague: ["JUSTICE LEAGUE", "cursive"],
     },
   },
   plugins: [],

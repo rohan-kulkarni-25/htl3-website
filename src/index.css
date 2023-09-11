@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "justiceLeague";
-  src: url("./assets/fonts/justiceLeague.ttf");
+  font-family: "JUSTICE LEAGUE";
+  font-style: normal;
+  font-weight: 400;
+  src: local("JUSTICE LEAGUE"),
+    url("./assets/fonts/JUSTICELEAGUE.ttf") format("woff");
 }
 
 @keyframes marquee {
