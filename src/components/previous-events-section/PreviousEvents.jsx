@@ -1,8 +1,8 @@
-import IMG1 from "../../assets/1.jpg";
-import IMG2 from "../../assets/2.jpg";
-import IMG3 from "../../assets/3.jpg";
+// import IMG1 from "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu172_xpwuuh.jpg";
+// import IMG2 from "../../assets/2.jpg";
+// import IMG3 from "../../assets/3.jpg";
 // import IMG4 from "../../assets/4.jpg";
-import IMG5 from "../../assets/5.jpg";
+// import IMG5 from "../../assets/5.jpg";
 
 const PreviousEvents = () => {
   return (
@@ -15,29 +15,47 @@ const PreviousEvents = () => {
       </div>
 
       <div className="flex flex-col md:flex-row  justify-center  w-full h-auto md:h-96 md:gap-6">
-        <img src={IMG1} className="w-full  md:w-72  rounded-lg" />
+        <img
+          src={
+            "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu172_xpwuuh.jpg"
+          }
+          className="w-full  md:w-72  rounded-lg"
+        />
         <div className="flex flex-col place-content-end gap-4">
           <img
-            src={IMG2}
+            src={
+              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu171_i9gsod.jpg"
+            }
             className="w-full h-full md:w-96 md:h-48 rounded-lg "
           />
           <img
-            src={IMG3}
+            src={
+              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu190_jvsmmm.jpg"
+            }
             className="w-full h-full md:w-96 md:h-48 rounded-lg"
           />
         </div>
-        {/* <div className="flex flex-col place-content-end gap-4">
+        <div className="flex flex-col place-content-end gap-4">
           <img
-            src={IMG2}
+            src={
+              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu152_fwuhv4.jpg"
+            }
             className="w-full h-full md:w-96 md:h-48 rounded-lg "
           />
           <img
-            src={IMG3}
+            src={
+              "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417129/Hacktheleagu427_eywuui.jpg"
+            }
             className="w-full h-full md:w-96 md:h-48 rounded-lg"
           />
-        </div> */}
-        {/* <img src={IMG4} className="w-full md:w-64 place-self-end rounded-lg " /> */}
-        <img src={IMG5} className="w-full md:w-72 rounded-lg" />
+        </div>
+
+        <img
+          src={
+            "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu398_c6tyvm.jpg"
+          }
+          className="w-full md:w-72 rounded-lg"
+        />
       </div>
 
       <div className="flex flex-col h-full w-full bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lg">

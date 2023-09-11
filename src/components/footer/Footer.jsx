@@ -48,7 +48,7 @@ const Footer = () => {
             Previous Events
           </a>
           {/* <a className=" font-light ">Upcoming Events</a> */}
-          <a className=" font-light">Sponsor Us</a>
+          <a className=" font-light" href="" >Sponsor Us</a>
         </div>
         <div className="flex flex-row justify-evenly text-3xl md:place-self-end gap-4 my-4">
           <a href="mailto:support@hacktheleague.tech">
