@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "justiceLeague";
-  src: url("../public/fonts/justiceLeague.ttf");
+  src: url("./assets/fonts/justiceLeague.ttf");
 }
 
 @keyframes marquee {

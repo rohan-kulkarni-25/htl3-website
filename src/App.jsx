@@ -13,7 +13,7 @@ import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
-    <section className="bg-black bg-[url('/bg.svg')] bg-no-repeat bg-cover overflow-x-hidden h-screen ">
+    <section className="bg-black bg-[url('./assets/bg.svg')] bg-no-repeat bg-cover overflow-x-hidden h-screen ">
       <Navbar />
       <HeroSection />
       <HTLStrips />
