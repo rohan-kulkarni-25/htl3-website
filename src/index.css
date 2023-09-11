@@ -1,14 +1,13 @@
-@import url("https://fonts.cdnfonts.com/s/20366/JUSTICE LEAGUE.woff");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
   font-family: "JUSTICE LEAGUE";
   font-style: normal;
   font-weight: 400;
   src: local("JUSTICE LEAGUE"),
-    url("https://fonts.cdnfonts.com/s/20366/JUSTICE LEAGUE.woff") format("woff");
+    url("/fonts/JUSTICELEAGUE.ttf") format("woff");
 }
 
 @keyframes marquee {
@@ -48,4 +47,4 @@
 
 .animate-sponsors {
   animation: sponsors 5s linear infinite;
-}
+} */

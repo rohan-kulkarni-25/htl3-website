@@ -1,5 +1,4 @@
 import TeamCard from "./TeamCard";
-
 import JatinImage from "../../assets/team3/Jatin_Pandya.png";
 import SakshamImage from "../../assets/team3/Saksham.jpg";
 import ShreyanshImage from "../../assets/team3/Shreyansh.jpg";

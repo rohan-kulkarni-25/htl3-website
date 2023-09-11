@@ -1,11 +1,11 @@
-import { FaDiscord } from "react-icons/fa6";
-import { BsCalendarEvent } from "react-icons/bs";
+// import { FaDiscord } from "react-icons/fa6";
+// import { BsCalendarEvent } from "react-icons/bs";
 
 const HeroSection = () => {
   return (
     <main className="flex my-44 flex-row  justify-center">
       <div className="w-full md:w-4/5  gap-y-12 px-4  flex flex-col ">
-        <h1 className="text-4xl md:text-6xl xl:text-9xl  font-bold text-white text-center sm:text font-justiceLeague">
+        <h1 className="text-4xl md:text-6xl xl:text-9xl  font-bold text-white text-center sm:text ">
           HACK THE LEAGUE
         </h1>
         <div className="text-center text-5xl font-semibold font-mono flex flex-row justify-evenly place-items-center gap-9">
@@ -20,7 +20,7 @@ const HeroSection = () => {
             rel="noreferrer"
           >
             <button className="px-4 py-3 border-[#4652DD] border rounded-2xl text-sm md:text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center text-white ">
-              <BsCalendarEvent />
+              {/* <BsCalendarEvent /> */}
               Pre-Register
             </button>
           </a>
@@ -30,7 +30,7 @@ const HeroSection = () => {
             rel="noreferrer"
           >
             <button className="px-4 py-3  border-[#4652DD] border  rounded-2xl text-sm md:text-2xl font-semibold font-mono flex flex-row justify-center gap-4 items-center text-white">
-              <FaDiscord />
+              {/* <FaDiscord /> */}
               Join Discord
             </button>
           </a>

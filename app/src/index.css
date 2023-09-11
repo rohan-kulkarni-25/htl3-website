@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "JUSTICE LEAGUE";
+  font-style: normal;
+  font-weight: 400;
+  src: local("JUSTICE LEAGUE"), url("assets/fonts/JUSTICELEAGUE.ttf") format("woff");
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes mentors {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-1750%);
+  }
+}
+
+.animate-mentors {
+  animation: mentors 30s linear infinite;
+}
+
+@keyframes sponsors {
+  0% {
+    transform: translateX(-550%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+.animate-sponsors {
+  animation: sponsors 5s linear infinite;
+} 
