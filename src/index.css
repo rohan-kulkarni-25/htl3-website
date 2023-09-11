@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/s/20366/JUSTICE LEAGUE.woff");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +8,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("JUSTICE LEAGUE"),
-    url("./assets/fonts/JUSTICELEAGUE.ttf") format("woff");
+    url("https://fonts.cdnfonts.com/s/20366/JUSTICE LEAGUE.woff") format("woff");
 }
 
 @keyframes marquee {

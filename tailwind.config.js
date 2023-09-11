@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundImage:
       {
-        'gradients': "url('./public/bg.png)"
+        'gradients': "url('/img/bg2.svg')"
       }
     },
     fontFamily: {
