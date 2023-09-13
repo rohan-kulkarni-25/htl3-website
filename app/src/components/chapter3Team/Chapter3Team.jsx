@@ -9,7 +9,7 @@ import AasthaImage from "../../assets/team3/Aastha_Shah.jpg";
 import HarshImage from "../../assets/team3/Harsh.jpeg";
 import JyotiImage from "../../assets/team3/Jyoti_Mondal.jpg";
 import NisargImage from "../../assets/team3/Nisarg_Thakkar.png";
-import PrashantImage from "../../assets/team3/Prashant_Bhavsar.jpg";
+import PrashantImage from "../../assets/team3/Prashant_Bhavsar.png";
 import ShivangImage from "../../assets/team3/Shivang_Parmar.jpg";
 import LaveenaImage from "../../assets/team3/Laveena_Chetwani.jpg";
 import NeelImage from "../../assets/team3/Neel_Shah.jpeg";
