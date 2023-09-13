@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "justiceLeague";
-  src: url("./assets/fonts/justiceLeague.ttf");
+/* @font-face {
+  font-family: "JUSTICE LEAGUE";
+  font-style: normal;
+  font-weight: 400;
+  src: local("JUSTICE LEAGUE"),
+    url("/fonts/JUSTICELEAGUE.ttf") format("woff");
 }
 
 @keyframes marquee {
@@ -44,4 +47,4 @@
 
 .animate-sponsors {
   animation: sponsors 5s linear infinite;
-}
+} */

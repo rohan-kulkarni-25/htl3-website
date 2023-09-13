@@ -16,6 +16,7 @@ const PreviousEvents = () => {
 
       <div className="flex flex-col md:flex-row  justify-center  w-full h-auto md:h-96 md:gap-6">
         <img
+          loading="lazy"
           src={
             "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu172_xpwuuh.jpg"
           }
@@ -23,12 +24,14 @@ const PreviousEvents = () => {
         />
         <div className="flex flex-col place-content-end gap-4">
           <img
+            loading="lazy"
             src={
               "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu171_i9gsod.jpg"
             }
             className="w-full h-full md:w-96 md:h-48 rounded-lg "
           />
           <img
+            loading="lazy"
             src={
               "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu190_jvsmmm.jpg"
             }
@@ -37,12 +40,14 @@ const PreviousEvents = () => {
         </div>
         <div className="flex flex-col place-content-end gap-4">
           <img
+            loading="lazy"
             src={
               "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417040/Hacktheleagu152_fwuhv4.jpg"
             }
             className="w-full h-full md:w-96 md:h-48 rounded-lg "
           />
           <img
+            loading="lazy"
             src={
               "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417129/Hacktheleagu427_eywuui.jpg"
             }
@@ -51,6 +56,7 @@ const PreviousEvents = () => {
         </div>
 
         <img
+          loading="lazy"
           src={
             "https://res.cloudinary.com/dw58xmffd/image/upload/v1694417039/Hacktheleagu398_c6tyvm.jpg"
           }
