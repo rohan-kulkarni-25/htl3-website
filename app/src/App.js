@@ -12,11 +12,11 @@ const App = () => {
   return (
     <section className="bg-black bg-gradients  bg-no-repeat bg-cover overflow-x-hidden h-screen ">
       <Navbar />
-      <div className="bg-frame bg-no-repeat bg-center">
+      <div className="bg-frame bg-contain md:bg-auto bg-no-repeat bg-center">
         <HeroSection />
-        <div className="h-20" />
+        <div className="h-1 md:h-20" />
         <HTLStrips />
-        <div className="h-48" />
+        <div className="md:h-48" />
       </div>
       <AboutUs />
       <div className="h-48" />
