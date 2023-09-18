@@ -11,11 +11,11 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className="bg-black rounded-lg bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6"
+      className="bg-black rounded-lg bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6 "
     >
-      <div className="mx-52 flex flex-row justify-around  items-center ">
+      <div className="mx-52 flex flex-row justify-around  items-center lg:mx-12 sm:grid sm:grid-cols-2 sm:mx-4 ">
         <img src={LOGO} alt="logo" className=" w-32 my-4" />
-        <div className="flex flex-col text-xl font-medium text-left   text-white gap-3">
+        <div className="flex flex-col text-xl sm:text-lg font-medium text-left   text-white gap-3">
           <h1 className=" font-semibold">About</h1>
           <a
             rel="noreferrer"
@@ -42,7 +42,7 @@ const Footer = () => {
             Code of Conduct
           </a>
         </div>
-        <div className="flex flex-col text-xl font-medium text-left  text-white gap-3 my-4">
+        <div className="flex flex-col text-xl font-medium text-left  text-white gap-3 my-4 sm:text-lg">
           <h1 className=" font-semibold">Explore</h1>
           <a
             className=" font-light"
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-1 bg-white" />
-      <span className="text-center mb-4 text-gray-400  text-xl font-medium font-mono">
+      <span className="text-center mb-4 text-gray-400  text-xl font-medium font-mono sm:text-sm">
         Copyright @hacktheleague 2023
       </span>
     </div>

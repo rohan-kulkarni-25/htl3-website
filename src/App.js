@@ -13,24 +13,24 @@ const App = () => {
   return (
     <section className="bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-no-repeat bg-cover overflow-x-hidden h-screen ">
       <Navbar />
-      <div className="bg-frame bg-contain md:bg-auto bg-no-repeat bg-center">
+      <div className="bg-frame bg-contain bg-no-repeat bg-center">
         <HeroSection />
-        <div className="h-12" />
+        <div className="h-12 sm:h-12" />
         <HTLStrips />
-        <div className="h-64" />
+        <div className="h-64 sm:h-0" />
       </div>
       <AboutUs />
-      <div className="h-48" />
+      <div className="h-48 lg:h-24 sm:h-20" />
       <PreviousEvents />
-      <div className="h-48" />
+      <div className="h-48 lg:h-24 sm:h-20" />
       <PreviousMentors />
-      <div className="h-48" />
+      <div className="h-48 lg:h-24 sm:h-20" />
       <PreviousSponsors />
-      <div className="h-48" />
+      <div className="h-48 lg:h-24 sm:h-20" />
       <Chapter3Team />
-      <div className="h-48" />
+      <div className="h-48 lg:h-24  sm:h-20" />
       <HTLStrips />
-      <div className="h-48" />
+      <div className="h-48 lg:h-24  sm:h-20" />
       <Footer />
     </section>
   );

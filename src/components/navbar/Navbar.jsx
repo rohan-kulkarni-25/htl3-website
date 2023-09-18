@@ -3,9 +3,9 @@ import MLH from "../../assets/compressed/MLH.png";
 
 const Navbar = () => {
   return (
-    <nav className="sticky z-10 h-20 flex flex-row justify-between bg-opacity-90 top-10  bg-white mx-24">
-      <img src={LOGO} className="w-36 h-fit -ml-4" alt="img" />
-      <ul className="flex flex-row justify-center place-items-center gap-12 text-2xl font-semibold ">
+    <nav className="sticky z-10 h-20 flex flex-row justify-between bg-opacity-90 top-10  bg-white mx-24 lg:h-12 sm:mx-8">
+      <img src={LOGO} className="w-36 h-fit -ml-4 lg:w-24 sm:h-20" alt="img" />
+      <ul className="flex flex-row justify-center place-items-center gap-12 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-4">
         <li className="">
           <a className="hover:text-white" href="#about">
             About
@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <img src={MLH} className="w-24 h-fit -mr-4" alt="img" />
+      <img src={MLH} className="w-24 h-fit -mr-4 lg:w-20 sm:w-16 sm:h-32" alt="img" />
     </nav>
   );
 };
