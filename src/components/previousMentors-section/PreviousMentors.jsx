@@ -1,7 +1,5 @@
 import MentorCard from "./MentorCard";
 
-
-
 import HarshImage from "../../assets/mentors2/1.Harsh Ghodkar.jpg";
 import VrajImage from "../../assets/mentors2/2.Vraj Desai.png";
 import RahulImage from "../../assets/mentors2/3.Rahul Kulkarni.jpg";
@@ -38,12 +36,11 @@ import VaishnaviImage from "../../assets/mentors2/33.Vaishnavi Dwivedi.jpg";
 import VivekImage from "../../assets/mentors2/34.Vivek Sridhar.png";
 import YuvankImage from "../../assets/mentors2/35.Yuvank Soni.jpg";
 
-
 const PreviousMentors = () => {
   const Mentors = [
     { name: "Harsh Ghodkar", imgSrc: HarshImage },
-    { name: "Vraj Desai", imgSrc: VrajImage},
-    { name: "Rahul Kulkarni", imgSrc: RahulImage},
+    { name: "Vraj Desai", imgSrc: VrajImage },
+    { name: "Rahul Kulkarni", imgSrc: RahulImage },
     { name: "Vandit Pandya", imgSrc: VanditImage },
     { name: "Dhiraj Chauhan", imgSrc: DhirajImage },
     { name: "Wilfred Almeida", imgSrc: WilfredImage },
@@ -75,16 +72,18 @@ const PreviousMentors = () => {
     { name: "Tanay Mehta", imgSrc: TanayImage },
     { name: "Vaishnavi Dwivedi", imgSrc: VaishnaviImage },
     { name: "Vivek Sridhar", imgSrc: VivekImage },
-    { name: "Yuvank Soni", imgSrc: YuvankImage}
+    { name: "Yuvank Soni", imgSrc: YuvankImage },
   ];
   return (
-    <section className=" flex flex-col gap-24">
-      <div className="mx-7 md:mx-48 flex flex-row gap-7 place-items-center ">
-        <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white">League Heroes</h2>
+    <section className=" flex flex-col gap-24 ">
+      <div className="mx-48 flex flex-row gap-7 place-items-center lg:mx-24 sm:mx-8">
+        <h2 className="text-6xl font-bold text-white lg:text-5xl sm:text-3xl">
+          League Heroes
+        </h2>
         <p className="h-1 flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
       </div>
       <div className="flex overflow-hidden overflow-x-clip items-start  ">
-      {Mentors.map((mentor) => (
+        {Mentors.map((mentor) => (
           <div className="flex-none w-fit mr-8">
             <MentorCard imgSrc={mentor.imgSrc} name={mentor.name} />
           </div>
