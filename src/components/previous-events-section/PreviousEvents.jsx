@@ -16,42 +16,42 @@ const PreviousEvents = () => {
       </div>
 
       <div className="flex flex-row  justify-center place-items-center  w-full h-full  gap-6 my-24 lg:flex-wrap lg:my-16 sm:gap-2 ">
-        <div className="w-80 md:w-48 sm:w-40">
+        {/* <div className="min-w-80 md:w-48 sm:w-40">
           <img alt="logo" src={IMG1} className=" rounded-lg shadow-2xl" />
-        </div>
+        </div> */}
 
         <div className="flex flex-col items-center gap-4 ">
-          <div className="w-96 md:w-48 sm:w-40">
+          <div className="min-w-96 md:w-48 sm:w-40">
             <img
               alt="logo"
               src={IMG2}
-              className="my-auto rounded-lg shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px]"
+              className="my-auto rounded-lg shadow-2xl"
             />
           </div>
-          <div className="w-96 md:w-48 sm:w-40">
+          <div className="min-w-96 md:w-48 sm:w-40">
             <img alt="logo" src={IMG3} className="rounded-lg shadow-2xl" />
           </div>
         </div>
         <div className="flex  flex-col place-content-end gap-4 ">
-          <div className="w-96 md:w-48 sm:w-40">
+          <div className="min-w-96 md:w-48 sm:w-40">
             <img alt="logo" src={IMG4} className="rounded-lg shadow-2xl" />
           </div>
-          <div className="w-96 md:w-48 sm:w-40">
+          <div className="min-w-96 md:w-48 sm:w-40">
             <img alt="logo" src={IMG5} className=" rounded-lg shadow-2xl" />
           </div>
         </div>
 
-        <div className="w-96 md:w-48 sm:w-40">
+        {/* <div className="min-min-w-96 md:w-48 sm:w-40">
           <img
             alt="logo"
             src={IMG6}
             className="my-auto rounded-lg shadow-2xl"
           />
-        </div>
+        </div> */}
       </div>
 
-      <div className=" h-36 bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row  justify-evenly place-items-center  gap-y-4 lg:flex-wrap lg:h-full lg:p-8 sm:gap-4">
-        <p className="flex flex-row place-items-center gap-4">
+      <div className=" h-36 bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row  justify-evenly place-items-center  lg:flex-wrap lg:h-full lg:p-8 sm:gap-4 p-8 gap-4">
+        <p className="flex flex-row place-items-center gap-4 ">
           <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-2xl">
             3.2K+
           </span>

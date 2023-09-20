@@ -13,7 +13,7 @@ const App = () => {
   return (
     <section className="bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-no-repeat bg-cover overflow-x-hidden h-screen ">
       <Navbar />
-      <div className="bg-frame bg-contain bg-no-repeat bg-center">
+      <div className="bg-frame  bg-no-repeat bg-center lg:bg-contain">
         <HeroSection />
         <div className="h-12 sm:h-12" />
         <HTLStrips />
