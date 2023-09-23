@@ -6,7 +6,8 @@
   font-family: "JUSTICE LEAGUE";
   font-style: normal;
   font-weight: 400;
-  src: local("JUSTICE LEAGUE"), url("assets/fonts/JUSTICELEAGUE.ttf") format("woff");
+  src: local("JUSTICE LEAGUE"),
+    url("assets/fonts/JUSTICELEAGUE.ttf") format("woff");
 }
 
 @keyframes marquee {
@@ -46,4 +47,18 @@
 
 .animate-sponsors {
   animation: sponsors 5s linear infinite;
-} 
+}
+
+/* @keyframes events {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-events {
+  animation: events 10s linear infinite;
+} */
