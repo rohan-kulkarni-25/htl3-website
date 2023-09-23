@@ -4,14 +4,14 @@ import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 const HeroSection = () => {
   return (
-    <main className="flex my-36 flex-row  justify-center lg:my-48">
-      <div className="w-full gap-y-12 px-4  flex flex-col ">
-        <h1 className="text-9xl font-bold text-white text-center font-justiceLeague lg:text-8xl sm:text-4xl">
+    <main className="flex mt-36 flex-row  justify-center lg:mt-48 sm:mt-40 mb-8">
+      <div className="w-full gap-y-8 px-4  flex flex-col ">
+        <h1 className="text-8xl font-bold text-white text-center font-justiceLeague lg:text-8xl sm:text-4xl">
           HACK THE LEAGUE
         </h1>
         <div className="text-center text-5xl font-semibold font-mono flex flex-row justify-evenly place-items-center gap-9">
           <div className="flex-1 h-1 bg-white" />
-          <span className="text-6xl text-white lg:text-5xl sm:text-xl">
+          <span className="text-5xl text-white lg:text-5xl sm:text-xl">
             CHAPTER - 3
           </span>
           <div className="flex-1 h-1 bg-white" />

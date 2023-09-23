@@ -1,0 +1,59 @@
+/* ... Previous CSS rules ... */
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+  }
+  
+  .portrait-column,
+  .landscape-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .image-wrapper {
+    flex: 1;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Adjust the width of columns based on the aspect ratios */
+  .portrait-column {
+    max-width: calc(50% - 10px);
+    /* width: ${portraitWidth}px; */
+  }
+  
+  .landscape-column {
+    max-width: calc(50% - 10px);
+    /* width: ${landscapeWidth}px; */
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media screen and (max-width: 768px) {
+    .image-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .portrait-column,
+    .landscape-column {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  

@@ -26,7 +26,7 @@ export default {
       backgroundImage:
       {
         'gradients': "url('./assets/compressed/bg2.svg')",
-        'frame': "url('./assets/compressed/Frame25.svg')"
+        'frame': "url('./assets/compressed/Frame26.svg')"
       }
     },
     fontFamily: {
