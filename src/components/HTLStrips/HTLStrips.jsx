@@ -17,7 +17,7 @@ const HTLStrips = () => {
     };
   }, []);
   return (
-    <div className="my-24 overflow-hiddenl relative ">
+    <div className="my-24 overflow-hidden relative ">
       <div className="bg-black w-full h-20 -rotate-1  sm:h-16"></div>
       <div className="bg-white w-full h-20 rotate-1 absolute bottom-3 flex flex-row text-black  justify-evenly align-middle sm:h-16">
         <div className="flex place-self-center">

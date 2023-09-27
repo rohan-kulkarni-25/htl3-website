@@ -13,9 +13,9 @@ const Footer = () => {
       id="footer"
       className="bg-black rounded-lg bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6 "
     >
-      <div className="mx-52 flex flex-row justify-around  items-center lg:mx-12 sm:grid sm:grid-cols-2 sm:mx-4 ">
+      <div className="mx-52 flex flex-row justify-around items-center lg:mx-12 sm:flex-col sm:mx-4 ">
         <img src={LOGO} alt="logo" className=" w-32 my-4" />
-        <div className="flex flex-col text-xl sm:text-lg font-medium text-left   text-white gap-3">
+        <div className="flex flex-col text-xl sm:text-lg font-medium text-left sm:text-center text-white gap-3">
           <h1 className=" font-semibold">About</h1>
           <a
             rel="noreferrer"
@@ -42,7 +42,7 @@ const Footer = () => {
             Code of Conduct
           </a>
         </div>
-        <div className="flex flex-col text-xl font-medium text-left  text-white gap-3 my-4 sm:text-lg">
+        <div className="flex flex-col text-xl font-medium text-left sm:text-center text-white gap-3 my-4 sm:text-lg">
           <h1 className=" font-semibold">Explore</h1>
           <a
             className=" font-light"
@@ -57,7 +57,7 @@ const Footer = () => {
             Sponsor Us
           </a>
         </div>
-        <div className="flex flex-row justify-evenly text-3xl place-self-end gap-4 my-4">
+        <div className="flex flex-row justify-evenly text-3xl place-self-end sm:place-self-center gap-4 my-4">
           <a href="mailto:support@hacktheleague.tech">
             <FontAwesomeIcon icon={faEnvelope} color="white" />
           </a>
