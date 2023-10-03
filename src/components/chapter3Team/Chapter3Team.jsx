@@ -48,13 +48,13 @@ const Chapter3Team = () => {
   return (
     <section className="mx-48 flex flex-col gap-24 lg:mx-24 sm:mx-8">
       <div className="flex flex-row gap-7 place-items-center ">
-        <h2 className="text-6xl font-bold text-white lg:text-5xl sm:text-3xl">
+        <h2 className="text-5xl font-semibold font-poppins text-white lg:text-5xl sm:text-3xl">
           Chapter-3 Team
         </h2>
-        <p className="h-1 flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
+        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
       </div>
 
-      <span className=" text-white text-2xl font-medium -mt-12 font-mono lg:text-xl sm:text-sm">
+      <span className=" text-white text-xl font-poppins font-normal -mt-12 font-mono lg:text-xl sm:text-lg">
         The team consists of passionate developers who desire to create a change
         with the power of technology! The team is the soul of this hackathon!
       </span>

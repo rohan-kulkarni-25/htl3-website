@@ -1,15 +1,15 @@
-/* body{
+body{
     background-color: #050C19 ;
     background-image: url(/public/bg2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
     
-} */
+}
 
-body {
+/* body {
     background: linear-gradient(to right, #4F46E5, #71368A, #E11D74);
     background-repeat: no-repeat;
     overflow-x: hidden;
     height: 100%;
-}
+} */
