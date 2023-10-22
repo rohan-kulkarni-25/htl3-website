@@ -17,12 +17,12 @@ const PreviousSponsors = () => {
   return (
     <section className=" flex flex-col gap-24">
       <div className="flex flex-row gap-7 mx-48 place-items-center lg:mx-24 sm:mx-12 ">
-        <p className="h-1 flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
-        <h2 className="text-6xl font-bold text-white lg:text-5xl sm:text-3xl">
+        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
+        <h2 className="text-5xl font-semibold font-poppins text-white lg:text-5xl sm:text-3xl">
           Previous Sponsors
         </h2>
       </div>
-      <div className="flex flex-wrap justify-evenly items-center p-8 bg-white rounded-lg bg-opacity-20 backdrop-filter backdrop-blur-lg mx-48 lg:mx-24 sm:mx-12">
+      <div className="flex flex-wrap justify-evenly items-center p-8 bg-white rounded-lg bg-opacity-10 backdrop-filter backdrop-blur-lg mx-48 lg:mx-24 sm:mx-12">
         <div className="flex-none w-32  mr-8 sm:w-24">
           <img alt="logo" src={Zeeve} />
         </div>

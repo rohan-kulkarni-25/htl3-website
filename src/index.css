@@ -28,7 +28,9 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-1000%);
+
+    transform: translateX(-4000%);
+
   }
 }
 

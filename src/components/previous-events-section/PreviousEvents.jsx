@@ -10,8 +10,8 @@ const PreviousEvents = () => {
   return (
     <section className="mx-48 flex flex-col gap-24 lg:mx-24 lg:gap-4 sm:mx-8">
       <div className="flex flex-row gap-7 place-items-center ">
-        <p className="h-1 flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
-        <h2 className="text-6xl font-bold text-white lg:text-5xl sm:text-3xl">
+        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
+        <h2 className="text-5xl font-semibold font-poppins text-white lg:text-5xl sm:text-3xl">
           Previous Events
         </h2>
       </div>
@@ -24,36 +24,38 @@ const PreviousEvents = () => {
         <img src={IMG5} className="h-72 rounded-2xl" />
       </div>
 
-      <div className=" h-36 bg-black rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row  justify-evenly place-items-center  lg:flex-wrap lg:h-full lg:p-8 sm:gap-4 p-8 gap-4">
-        <p className="flex flex-row place-items-center gap-4 ">
-          <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-2xl">
+
+      <div className=" h-36 bg-black rounded-3xl bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row justify-evenly place-items-center  gap-y-4 lg:flex-wrap lg:h-full lg:p-8 sm:gap-4">
+        <p className="flex flex-row place-items-center gap-4 m-4">
+          <span className="font-semibold font-poppins text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
+
             3.2K+
           </span>
-          <span className="text-white font-medium text-3xl sm:text-xl">
-            Developer Community
+          <span className="text-white font-medium font-poppins text-xl sm:text-md">
+            Hackers
           </span>
         </p>
-        <p className="flex flex-row place-items-center gap-4">
-          <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
+        <p className="flex flex-row place-items-center gap-4 m-4">
+          <span className="font-semibold font-poppins text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
             10+
           </span>
-          <span className="text-white font-medium text-3xl sm:text-xl">
+          <span className="text-white font-medium font-poppins text-xl sm:text-xl">
             Cities
           </span>
         </p>
-        <p className="flex flex-row place-items-center gap-4">
-          <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
+        <p className="flex flex-row place-items-center gap-4 m-4">
+          <span className="font-semibold font-poppins text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
             20+
           </span>
-          <span className="text-white font-medium text-3xl sm:text-xl">
+          <span className="text-white font-medium font-poppins text-xl sm:text-xl">
             Sessions
           </span>
         </p>
-        <p className="flex flex-row place-items-center gap-4">
-          <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
+        <p className="flex flex-row place-items-center gap-4 m-4">
+          <span className="font-semibold font-poppins text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
             200+
           </span>
-          <span className="text-white font-medium text-3xl sm:text-xl">
+          <span className="text-white font-medium font-poppins text-xl sm:text-xl">
             Projects
           </span>
         </p>
