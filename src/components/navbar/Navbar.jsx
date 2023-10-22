@@ -4,18 +4,27 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-
-
     <nav className="sticky z-10 h-20 flex flex-row justify-between bg-opacity-90 top-10 bg-white mx-24 lg:h-12 sm:mx-8">
-      <NavLink to='/'><img src={LOGO} className="w-36 h-fit -ml-4 lg:w-24 sm:h-20 sm:w-full" alt="img" /></NavLink>
-      <ul className="flex flex-row justify-center place-items-center gap-12 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-2 ">
-
+      <NavLink to="/">
+        <img
+          src={LOGO}
+          className="w-36 h-fit  -ml-4 lg:w-24 sm:h-20 sm:w-28"
+          alt="img"
+        />
+      </NavLink>
+      <ul className="flex flex-row justify-center place-items-center gap-12 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-4 ">
         <li className="">
-          <a className="hover:text-white" href="#about">
+          <a className="hover:text-white" href="/">
             About
           </a>
         </li>
+
         <li>
+          <NavLink to="/meetups" className="hover:text-white">
+            Meetups
+          </NavLink>
+        </li>
+        <li className="sm:hidden">
           <a
             className="hover:text-white"
             href="https://chapter2-htl.vercel.app"
@@ -24,13 +33,6 @@ const Navbar = () => {
           >
             Chapter-2
           </a>
-        </li>
-        <li>
-          <NavLink to="/meetups"
-            className="hover:text-white"
-          >
-            Meetups
-          </NavLink>
         </li>
         <li>
           <a className="hover:text-white" href="#footer">

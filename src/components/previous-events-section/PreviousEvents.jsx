@@ -4,7 +4,6 @@ import IMG3 from "../../assets/compressed/events/3.webp";
 import IMG4 from "../../assets/compressed/events/4.webp";
 import IMG5 from "../../assets/compressed/events/5.webp";
 import IMG6 from "../../assets/compressed/events/6.webp";
-import Carousel from "./Carousel";
 
 const PreviousEvents = () => {
   return (
@@ -16,19 +15,17 @@ const PreviousEvents = () => {
         </h2>
       </div>
       <div className="flex flex-wrap  justify-evenly h-fit gap-12 ">
-        <img src={IMG1} className="h-72 rounded-2xl" />
-        <img src={IMG6} className="h-72 rounded-2xl" />
-        <img src={IMG2} className="h-72 rounded-2xl" />
-        <img src={IMG3} className="h-72 rounded-2xl" />
-        <img src={IMG4} className="h-72 rounded-2xl" />
-        <img src={IMG5} className="h-72 rounded-2xl" />
+        <img src={IMG1} className="h-72 w-60 rounded-2xl" alt="event 1 " />
+        <img src={IMG6} className="h-72 w-60  rounded-2xl" alt="event 2" />
+        <img src={IMG2} className="h-72 w-96  rounded-2xl" alt="event 3" />
+        <img src={IMG3} className="h-72 w-96 rounded-2xl" alt="event 4" />
+        <img src={IMG4} className="h-72 w-96  rounded-2xl" alt="event 5" />
+        <img src={IMG5} className="h-72 w-96  rounded-2xl" alt="event 6" />
       </div>
-
 
       <div className=" h-36 bg-black rounded-3xl bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row justify-evenly place-items-center  gap-y-4 lg:flex-wrap lg:h-full lg:p-8 sm:gap-4">
         <p className="flex flex-row place-items-center gap-4 m-4">
           <span className="font-semibold font-poppins text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
-
             3.2K+
           </span>
           <span className="text-white font-medium font-poppins text-xl sm:text-md">
