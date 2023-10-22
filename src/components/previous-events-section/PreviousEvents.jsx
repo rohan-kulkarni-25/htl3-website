@@ -4,6 +4,7 @@ import IMG3 from "../../assets/compressed/events/3.webp";
 import IMG4 from "../../assets/compressed/events/4.webp";
 import IMG5 from "../../assets/compressed/events/5.webp";
 import IMG6 from "../../assets/compressed/events/6.webp";
+import Carousel from "./Carousel";
 
 const PreviousEvents = () => {
   return (
@@ -14,45 +15,20 @@ const PreviousEvents = () => {
           Previous Events
         </h2>
       </div>
-
-      <div className="flex flex-row  justify-center place-items-center  w-full h-full  gap-6 my-24 lg:flex-wrap lg:my-16 sm:gap-2 ">
-        <div className="w-80 md:w-48 sm:w-40">
-          <img alt="logo" src={IMG1} className=" rounded-lg shadow-2xl" />
-        </div>
-
-        <div className="flex flex-col items-center gap-4 ">
-          <div className="w-96 md:w-48 sm:w-40">
-            <img
-              alt="logo"
-              src={IMG2}
-              className="my-auto rounded-lg shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px]"
-            />
-          </div>
-          <div className="w-96 md:w-48 sm:w-40">
-            <img alt="logo" src={IMG3} className="rounded-lg shadow-2xl" />
-          </div>
-        </div>
-        <div className="flex  flex-col place-content-end gap-4 ">
-          <div className="w-96 md:w-48 sm:w-40">
-            <img alt="logo" src={IMG4} className="rounded-lg shadow-2xl" />
-          </div>
-          <div className="w-96 md:w-48 sm:w-40">
-            <img alt="logo" src={IMG5} className=" rounded-lg shadow-2xl" />
-          </div>
-        </div>
-
-        <div className="w-96 md:w-48 sm:w-40">
-          <img
-            alt="logo"
-            src={IMG6}
-            className="my-auto rounded-lg shadow-2xl"
-          />
-        </div>
+      <div className="flex flex-wrap  justify-evenly h-fit gap-12 ">
+        <img src={IMG1} className="h-72 rounded-2xl" />
+        <img src={IMG6} className="h-72 rounded-2xl" />
+        <img src={IMG2} className="h-72 rounded-2xl" />
+        <img src={IMG3} className="h-72 rounded-2xl" />
+        <img src={IMG4} className="h-72 rounded-2xl" />
+        <img src={IMG5} className="h-72 rounded-2xl" />
       </div>
+
 
       <div className=" h-36 bg-black rounded-3xl bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row justify-evenly place-items-center  gap-y-4 lg:flex-wrap lg:h-full lg:p-8 sm:gap-4">
         <p className="flex flex-row place-items-center gap-4 m-4">
           <span className="font-semibold font-poppins text-transparent text-5xl bg-clip-text bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700 sm:text-3xl">
+
             3.2K+
           </span>
           <span className="text-white font-medium font-poppins text-xl sm:text-md">

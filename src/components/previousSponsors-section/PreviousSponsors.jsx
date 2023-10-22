@@ -63,7 +63,7 @@ const PreviousSponsors = () => {
         <div className="flex-none w-32  mr-8 sm:w-24">
           <img alt="logo" src={Telos} />
         </div>
-        <div className="flex-none w-32  mr-8 sm:w-24">
+        <div className="flex-none w-52  mr-8 sm:w-24">
           <img alt="logo" src={WallectConnect} />
         </div>
       </div>

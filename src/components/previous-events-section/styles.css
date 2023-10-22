@@ -1,0 +1,15 @@
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  transition: transform 1s ease;
+  opacity: 0;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
