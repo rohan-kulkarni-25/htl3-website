@@ -77,10 +77,10 @@ const PreviousMentors = () => {
   return (
     <section className=" flex flex-col gap-24 ">
       <div className="mx-48 flex flex-row gap-7 place-items-center lg:mx-24 sm:mx-8">
-        <h2 className="text-6xl font-bold text-white lg:text-5xl sm:text-3xl">
+        <h2 className="text-5xl font-semibold font-poppins text-white lg:text-5xl sm:text-3xl">
           League Heroes
         </h2>
-        <p className="h-1 flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
+        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
       </div>
       <div className="flex overflow-hidden overflow-x-clip items-start  ">
         {Mentors.map((mentor) => (
