@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
@@ -25,8 +24,8 @@ export default {
     extend: {
       backgroundImage:
       {
-        'gradients': "url('./assets/compressed/bg2.svg')",
-        'frame': "url('./assets/compressed/Frame26.svg')"
+        'gradients': "url('https://res.cloudinary.com/dw58xmffd/image/upload/v1706289687/hacktheleague/bg2_obmnbd.svg')",
+        'frame': "url('https://res.cloudinary.com/dw58xmffd/image/upload/v1706289693/hacktheleague/Frame26_hauujp.svg')"
       }
     },
     fontFamily: {

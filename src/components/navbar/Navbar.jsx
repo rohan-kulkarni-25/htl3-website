@@ -1,32 +1,41 @@
-import LOGO from "../../assets/compressed/logo.png";
-import MLH from "../../assets/compressed/MLH.png";
 import { NavLink } from "react-router-dom";
+import { TbChevronsDown, TbChevronsUp } from "react-icons/tb";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+
   return (
-    <nav className="sticky z-10 h-20 flex flex-row justify-between bg-opacity-90 top-10 bg-white mx-24 lg:h-12 sm:mx-8">
-      <NavLink to="/">
+    <nav className="sticky z-40 h-20 flex flex-row justify-between p-4">
+      <NavLink to="/" className="z-50">
         <img
-          src={LOGO}
-          className="w-36 h-fit  -ml-4 lg:w-24 sm:h-20 sm:w-28"
-          alt="img"
+          src={
+            "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290493/hacktheleague/logo_vukuk2.png"
+          }
+          className="w-36  lg:w-24 sm:w-20 "
+          alt="htl-logo"
         />
       </NavLink>
-      <ul className="flex flex-row justify-center place-items-center gap-12 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-4 ">
+      <ul className="flex flex-row  justify-center place-items-center gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-8 text-white sm:hidden ">
         <li className="">
-          <a className="hover:text-white" href="/">
-            About
+          <a className="hover:underline" href="/">
+            Home
           </a>
         </li>
 
         <li>
-          <NavLink to="/meetups" className="hover:text-white">
-            Meetups
+          <NavLink to="/leagueHeroes" className="hover:underline">
+            League Heroes
           </NavLink>
+        </li>
+        <li>
+          <a href="/#sponsors" className="hover:underline">
+            Sponsors
+          </a>
         </li>
         <li className="sm:hidden">
           <a
-            className="hover:text-white"
+            className="hover:underline"
             href="https://chapter2-htl.vercel.app"
             target="_blank"
             rel="noreferrer"
@@ -35,17 +44,76 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="hover:text-white" href="#footer">
-            Contact
-          </a>
+          <NavLink to="/team" className="hover:underline">
+            Team
+          </NavLink>
         </li>
       </ul>
-
-      <img
-        src={MLH}
-        className="w-24 h-fit -mr-4 lg:w-20 sm:w-16 sm:h-32"
-        alt="img"
+      <TbChevronsDown
+        color="white"
+        size={32}
+        className="hidden sm:block animate-bounce"
+        onClick={() => setShowNav(true)}
       />
+      <div
+        className={`absolute  bg-white h-fit w-full mx-auto left-0 top-0 sm:p-4  rounded-br-2xl delay-700 rounded-bl-2xl ${
+          showNav ? "block" : "hidden"
+        }`}
+      >
+        <ul className="flex flex-col  justify-center place-items-center  gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-4 text-black">
+          <li className="">
+            <a className="hover:underline" href="/">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <NavLink to="/leagueHeroes" className="hover:underline">
+              League Heroes
+            </NavLink>
+          </li>
+          <li>
+            <a href="/#sponsors" className="hover:underline">
+              Sponsors
+            </a>
+          </li>
+          <li className="sm:hidden">
+            <a
+              className="hover:underline"
+              href="https://chapter2-htl.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Chapter-2
+            </a>
+          </li>
+          <li>
+            <NavLink to="/team" className="hover:underline">
+              Team
+            </NavLink>
+          </li>
+          <TbChevronsUp
+            color="black"
+            size={32}
+            onClick={() => setShowNav(false)}
+          />
+        </ul>
+      </div>
+
+      <NavLink
+        target="_blank"
+        className="z-50"
+        rel="noreferrer"
+        to="https://mlh.io/"
+      >
+        <img
+          src={
+            "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290497/hacktheleague/MLH_vv6xor.png"
+          }
+          className="w-30  lg:w-24  sm:w-16 "
+          alt="mlh-logo"
+        />
+      </NavLink>
     </nav>
   );
 };

@@ -20,47 +20,5 @@
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 5s linear infinite;
 }
-
-@keyframes mentors {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-
-    transform: translateX(-4000%);
-
-  }
-}
-
-.animate-mentors {
-  animation: mentors 50s linear infinite;
-}
-
-@keyframes sponsors {
-  0% {
-    transform: translateX(-550%);
-  }
-  100% {
-    transform: translateX(150%);
-  }
-}
-
-.animate-sponsors {
-  animation: sponsors 5s linear infinite;
-}
-
-/* @keyframes events {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.animate-events {
-  animation: events 10s linear infinite;
-} */
