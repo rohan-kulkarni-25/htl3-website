@@ -1,7 +1,36 @@
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaHeart } from "react-icons/fa";
 import { MdOutlineDateRange } from "react-icons/md";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const HeroSection = () => {
+  const [snackbar, setSnackBar] = useState(false);
+  const [value, setValue] = useState(0);
+  useEffect(() => {
+    if (snackbar) {
+      const timeout = setTimeout(() => snackbarClose(), 2000);
+      return () => {
+        clearTimeout(timeout);
+      };
+    }
+  }, [snackbar]);
+
+  const snackbarClose = () => {
+    setSnackBar(false);
+  };
+
+  const showSomeLove = async () => {
+    let response = await axios.get(
+      "https://htl-backend-production.up.railway.app/showhtlsomelove"
+    );
+    console.log(response);
+    setValue(response.data.value);
+  };
+
+  useEffect(() => {
+    showSomeLove();
+  }, []);
+
   return (
     <main className="flex my-36 flex-row  justify-center lg:my-48 sm:my-36">
       <div className="w-full gap-y-12 px-4  flex flex-col ">
@@ -37,7 +66,26 @@ const HeroSection = () => {
             </button>
           </a>
         </div>
+        <div className="mx-auto ">
+          <button
+            className="px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
+            onClick={() => {
+              setValue(value + 1);
+              setSnackBar(true), showSomeLove();
+            }}
+          >
+            <FaHeart className="animate-pulse " color="red" />
+            <span className="text-lg">{value}</span>
+          </button>
+        </div>
       </div>
+      {snackbar && (
+        <div className="absolute bg-white p-4   bottom-10 text-2xl animate-bounce rounded-xl w-1/2 sm:text-xs">
+          <div className="flex-row text-center">
+            <p>Hack The League ❤️ you {value} times !!!</p>
+          </div>
+        </div>
+      )}
     </main>
   );
 };
