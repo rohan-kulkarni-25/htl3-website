@@ -5,7 +5,7 @@ const Team = () => {
     {
       name: "Jatin Pandya",
       imgSrc:
-        "https://res.cloudinary.com/dw58xmffd/image/upload/v1706289919/hacktheleague/team/saksham_lzrleq.webp",
+        "https://res.cloudinary.com/dw58xmffd/image/upload/v1706289910/hacktheleague/team/jatin-pandya_tyfyzr.webp",
     },
     {
       name: "Saksham Taneja",
