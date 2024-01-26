@@ -1,6 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar } from "@fortawesome/free-solid-svg-icons";
-import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { FaDiscord } from "react-icons/fa";
+import { MdOutlineDateRange } from "react-icons/md";
 
 const HeroSection = () => {
   return (
@@ -11,7 +10,7 @@ const HeroSection = () => {
         </h1>
         <div className="text-center text-5xl font-semibold font-mono flex flex-row justify-evenly place-items-center gap-9">
           <div className="flex-1 h-0.5 rounded-sm bg-white" />
-          <span className="text-6xl text-white lg:text-5xl sm:text-2xl">
+          <span className="text-6xl text-white lg:text-5xl sm:text-2xl ">
             CHAPTER - 3
           </span>
           <div className="flex-1 h-0.5 rounded-sm bg-white" />
@@ -23,7 +22,7 @@ const HeroSection = () => {
             rel="noreferrer"
           >
             <button className="px-6 py-3 border-[#4652DD] bg-none bg-opacity-20 hover:bg-white hover:text-black ease-in hover:duration-300 border rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center text-white  text-2xl lg:text-xl sm:text-lg">
-              <FontAwesomeIcon icon={faCalendar} />
+              <MdOutlineDateRange />
               Pre-Register
             </button>
           </a>
@@ -33,7 +32,7 @@ const HeroSection = () => {
             rel="noreferrer"
           >
             <button className="px-6 py-3  border-[#4652DD] bg-none bg-opacity-20 hover:bg-white hover:text-black ease-in hover:duration-300 border  rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center text-white text-2xl lg:text-xl sm:text-lg">
-              <FontAwesomeIcon icon={faDiscord} />
+              <FaDiscord />
               Join Discord
             </button>
           </a>

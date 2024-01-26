@@ -20,22 +20,20 @@
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 5s linear infinite;
 }
 
-@keyframes mentors {
+/* @keyframes mentors {
   0% {
     transform: translateX(0%);
   }
   100% {
-
-    transform: translateX(-4000%);
-
+    transform: translateX(-1000%);
   }
 }
 
 .animate-mentors {
-  animation: mentors 50s linear infinite;
+  animation: mentors 10s linear infinite;
 }
 
 @keyframes sponsors {
@@ -45,11 +43,11 @@
   100% {
     transform: translateX(150%);
   }
-}
-
+} */
+/* 
 .animate-sponsors {
   animation: sponsors 5s linear infinite;
-}
+} */
 
 /* @keyframes events {
   0% {
