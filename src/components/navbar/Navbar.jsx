@@ -1,18 +1,22 @@
 import { NavLink } from "react-router-dom";
+import { TbChevronsDown, TbChevronsUp } from "react-icons/tb";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+
   return (
     <nav className="sticky z-40 h-20 flex flex-row justify-between p-4">
-      <NavLink to="/">
+      <NavLink to="/" className="z-50">
         <img
           src={
             "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290493/hacktheleague/logo_vukuk2.png"
           }
-          className="w-36 h-fit lg:w-24 sm:h-20 sm:w-28 "
+          className="w-36  lg:w-24 sm:w-20 "
           alt="htl-logo"
         />
       </NavLink>
-      <ul className="flex flex-row  justify-center place-items-center gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-8 text-white">
+      <ul className="flex flex-row  justify-center place-items-center gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-8 text-white sm:hidden ">
         <li className="">
           <a className="hover:underline" href="/">
             Home
@@ -45,14 +49,71 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
-
-      <img
-        src={
-          "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290497/hacktheleague/MLH_vv6xor.png"
-        }
-        className="w-30 h-fit lg:w-24 sm:h-20 sm:w-28 "
-        alt="mlh-logo"
+      <TbChevronsDown
+        color="white"
+        size={32}
+        className="hidden sm:block animate-bounce"
+        onClick={() => setShowNav(true)}
       />
+      <div
+        className={`absolute  bg-white h-fit w-full mx-auto left-0 top-0 sm:p-4  rounded-br-2xl delay-700 rounded-bl-2xl ${
+          showNav ? "block" : "hidden"
+        }`}
+      >
+        <ul className="flex flex-col  justify-center place-items-center  gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-4 text-black">
+          <li className="">
+            <a className="hover:underline" href="/">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <NavLink to="/leagueHeroes" className="hover:underline">
+              League Heroes
+            </NavLink>
+          </li>
+          <li>
+            <a href="/#sponsors" className="hover:underline">
+              Sponsors
+            </a>
+          </li>
+          <li className="sm:hidden">
+            <a
+              className="hover:underline"
+              href="https://chapter2-htl.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Chapter-2
+            </a>
+          </li>
+          <li>
+            <NavLink to="/team" className="hover:underline">
+              Team
+            </NavLink>
+          </li>
+          <TbChevronsUp
+            color="black"
+            size={32}
+            onClick={() => setShowNav(false)}
+          />
+        </ul>
+      </div>
+
+      <NavLink
+        target="_blank"
+        className="z-50"
+        rel="noreferrer"
+        to="https://mlh.io/"
+      >
+        <img
+          src={
+            "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290497/hacktheleague/MLH_vv6xor.png"
+          }
+          className="w-30  lg:w-24  sm:w-16 "
+          alt="mlh-logo"
+        />
+      </NavLink>
     </nav>
   );
 };
