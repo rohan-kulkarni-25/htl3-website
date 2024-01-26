@@ -26,12 +26,16 @@ export default {
       {
         'gradients': "url('https://res.cloudinary.com/dw58xmffd/image/upload/v1706289687/hacktheleague/bg2_obmnbd.svg')",
         'frame': "url('https://res.cloudinary.com/dw58xmffd/image/upload/v1706289693/hacktheleague/Frame26_hauujp.svg')"
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        justiceLeague: ["JUSTICE LEAGUE", "cursive"],
       }
     },
-    fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
-      justiceLeague: ["JUSTICE LEAGUE", "cursive"],
-    },
+    // fontFamily: {
+    //   poppins: ['Poppins', 'sans-serif'],
+    //   justiceLeague: ["JUSTICE LEAGUE", "cursive"],
+    // },
   },
   plugins: [],
 }

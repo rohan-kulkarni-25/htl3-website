@@ -3,14 +3,14 @@ import { MdOutlineDateRange } from "react-icons/md";
 
 const HeroSection = () => {
   return (
-    <main className="flex my-36 flex-row  justify-center lg:my-48">
+    <main className="flex my-36 flex-row  justify-center lg:my-48 sm:my-36">
       <div className="w-full gap-y-12 px-4  flex flex-col ">
-        <h1 className="text-9xl font-bold text-white text-center font-justiceLeague lg:text-8xl sm:text-5xl">
+        <h1 className="text-9xl font-bold text-white text-center font-justiceLeague lg:text-8xl sm:text-4xl">
           HACK THE LEAGUE
         </h1>
         <div className="text-center text-5xl font-semibold font-mono flex flex-row justify-evenly place-items-center gap-9">
           <div className="flex-1 h-0.5 rounded-sm bg-white" />
-          <span className="text-6xl text-white lg:text-5xl sm:text-2xl ">
+          <span className="text-6xl text-white lg:text-5xl sm:text-2xl font-poppins">
             CHAPTER - 3
           </span>
           <div className="flex-1 h-0.5 rounded-sm bg-white" />
