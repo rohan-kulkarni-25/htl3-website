@@ -1,7 +1,5 @@
-import { FaRegEnvelope } from "react-icons/fa";
+import { FaRegEnvelope, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,7 +8,13 @@ const Footer = () => {
       className="bg-black rounded-lg bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6 "
     >
       <div className="mx-52 flex flex-row justify-around font-poppins items-center lg:mx-12 sm:flex-col sm:mx-4 ">
-        <img src={"https://res.cloudinary.com/dw58xmffd/image/upload/v1706290493/hacktheleague/logo_vukuk2.png"} alt="logo" className=" w-32 my-4" />
+        <img
+          src={
+            "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290493/hacktheleague/logo_vukuk2.png"
+          }
+          alt="logo"
+          className=" w-32 my-4"
+        />
         <div className="flex flex-col text-xl sm:text-lg font-medium text-left sm:text-center text-white gap-3">
           <h1 className=" font-semibold">About</h1>
           <a
@@ -48,7 +52,6 @@ const Footer = () => {
           >
             Previous Events
           </a>
-          {/* <a className=" font-light ">Upcoming Events</a> */}
           <a className=" font-light" href="/">
             Sponsor Us
           </a>
@@ -82,7 +85,7 @@ const Footer = () => {
       </div>
       <div className="h-[0.5px] bg-white" />
       <span className="text-center mb-4 text-gray-400  text-lg font-medium font-poppins sm:text-sm">
-        Copyright @hacktheleague 2023
+        Copyright @hacktheleague 2024
       </span>
     </div>
   );
