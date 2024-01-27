@@ -59,7 +59,7 @@ const Team = () => {
     {
       name: "Prashant Bhavsar",
       imgSrc:
-        "https://res.cloudinary.com/dw58xmffd/image/upload/v1706289916/hacktheleague/team/prashant-bhavsar_g4nryw.webp",
+        "https://res.cloudinary.com/dw58xmffd/image/upload/v1706363802/hacktheleague/team/Prashant_PNG-min_rq9vbb.png",
     },
     {
       name: "Shivang Parmar",
