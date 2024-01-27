@@ -144,16 +144,23 @@ const Navbar = () => {
         />
       </NavLink> */}
 
-          <button
-            className="px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
-            onClick={() => {
-              setValue(value + 1);
-              setSnackBar(true), showSomeLove();
-            }}
-          >
-            <FaHeart className="animate-pulse " color="red" />
-            <span className="text-lg">{value}</span>
-          </button>
+      <button
+        className="px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
+        onClick={() => {
+          setValue(value + 1);
+          setSnackBar(true), showSomeLove();
+        }}
+      >
+        <FaHeart className="animate-pulse " color="red" />
+        <span className="text-lg">{value}</span>
+      </button>
+      {/* {snackbar && (
+        <div className=" bg-white p-4   bottom-10 text-2xl animate-bounce rounded-xl w-1/2 sm:text-xs">
+          <div className="flex-row text-center">
+            <p>Hack The League ❤️ you {value} times !!!</p>
+          </div>
+        </div>
+      )} */}
     </nav>
   );
 };
