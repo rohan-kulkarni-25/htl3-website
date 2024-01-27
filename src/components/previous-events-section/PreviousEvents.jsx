@@ -1,13 +1,13 @@
 const PreviousEvents = () => {
   return (
-    <section className="mx-48 flex flex-col gap-24 lg:mx-24 lg:gap-4 sm:mx-8">
+    <section className="mx-48 flex flex-col gap-24 lg:mx-24  lg:py-24 lg:gap-12 sm:mx-8">
       <div className="flex flex-row gap-7 place-items-center ">
         <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
         <h2 className="text-5xl font-semibold font-poppins text-white lg:text-5xl sm:text-3xl">
           Previous Events
         </h2>
       </div>
-      <div className="flex flex-wrap flex-row  justify-evenly  gap-12 mx-24">
+      <div className="flex flex-wrap flex-row  justify-evenly  gap-12 mx-24 lg:mx-52">
         <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706329922/hacktheleague/Profile_Card_-_Container_1_-min_aeapsi.png" />
       </div>
 
