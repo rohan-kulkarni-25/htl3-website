@@ -9,7 +9,7 @@ export default {
       // xl: { max: "1350px" },
       // => @media (max-width: 1279px) { ... }
 
-      lg: { max: "1500px" },
+      lg: { max: "1700px" },
       // => @media (max-width: 1023px) { ... }
 
       md: { max: "900px" },
