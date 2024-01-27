@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
-
+import { Analytics } from '@vercel/analytics/react';
 import Footer from "./components/footer/Footer";
 import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -15,6 +15,7 @@ function App() {
       <Navbar />
       <Outlet />
       <Footer />
+      <Analytics mode={'production'} />;
     </main>
   );
 }
