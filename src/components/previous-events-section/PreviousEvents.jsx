@@ -7,8 +7,11 @@ const PreviousEvents = () => {
           Previous Events
         </h2>
       </div>
-      <div className="flex flex-wrap flex-row  justify-evenly  gap-12 mx-24 lg:mx-52">
+      <div className="flex flex-wrap flex-row  justify-evenly  gap-12 mx-24 lg:mx-52 sm:hidden">
         <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706329922/hacktheleague/Profile_Card_-_Container_1_-min_aeapsi.png" />
+      </div>
+      <div className="  justify-evenly  gap-12 mx-24 lg:mx-52 sm:mx-0 sm:block hidden">
+        <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706338297/hacktheleague/prev_events-min_ts3e2n.png" />
       </div>
 
       <div className=" h-36 bg-black rounded-3xl bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row justify-evenly place-items-center  gap-y-4 lg:flex-wrap lg:h-full lg:p-8 sm:gap-4">

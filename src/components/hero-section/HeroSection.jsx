@@ -32,7 +32,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <main className="flex mt-24 flex-row  justify-center  sm:my-36 ">
+    <main className="flex mt-24 flex-row  justify-center  sm:mt-24 sm:my-0">
       <div className="w-full px-4 flex flex-col ">
         <div className="gap-y-12 flex flex-col">
           <h1 className="text-7xl font-bold text-white text-center font-justiceLeague  sm:text-4xl">
@@ -68,7 +68,7 @@ const HeroSection = () => {
             </a>
           </div>
         </div>
-        <div className="mx-128 lg:mx-72 my-8">
+        <div className="mx-128 lg:mx-72 my-8 sm:mx-8">
           <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706334583/hacktheleague/Frame26_1_edqiow.png" />
         </div>
       </div>

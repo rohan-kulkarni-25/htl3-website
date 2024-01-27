@@ -7,7 +7,7 @@ const AboutUs = () => {
         </h2>
         <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
       </div>
-      <div className="flex flex-row gap-16 place-items-center ">
+      <div className="flex flex-row gap-16 place-items-center sm:flex-col-reverse">
         <p className="w-1/2 text-white text-2xl leading-loose text-justify font-poppins lg:w-full sm:text-lg">
           Hack The League envisions the empowering combination of technology and
           opportunities to generate practical solutions for real-world problems

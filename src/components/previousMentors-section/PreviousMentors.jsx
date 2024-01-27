@@ -19,8 +19,11 @@ const PreviousMentors = () => {
         </p>
       </div>
 
-      <div className="flex flex-wrap flex-row  justify-evenly  gap-12 w-fit mx-24">
+      <div className="flex flex-wrap flex-row  justify-evenly  gap-12 w-fit mx-24 sm:hidden">
         <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706329926/hacktheleague/Profile_Card_-_Container-min_wrylmw.png" />
+      </div>
+      <div className="w-fit mx-24 hidden sm:block sm:mx-0">
+        <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706338318/hacktheleague/league_heroes-min_ytae7n.png" />
       </div>
       <div className="flex justify-center flex-row mx-auto gap-8 sm:flex-col">
         <NavLink
