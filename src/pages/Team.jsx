@@ -44,7 +44,7 @@ const Team = () => {
     {
       name: "Harsh Pal",
       imgSrc:
-        "https://res.cloudinary.com/dw58xmffd/image/upload/v1706289911/hacktheleague/team/kartikey-garg_bm6rpy.webp",
+        "https://res.cloudinary.com/dw58xmffd/image/upload/v1706289910/hacktheleague/team/harsh_r5mrmj.webp",
     },
     {
       name: "Jyoti Mondal",
