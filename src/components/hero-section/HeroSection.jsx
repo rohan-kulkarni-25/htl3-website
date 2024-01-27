@@ -47,8 +47,7 @@ const HeroSection = () => {
           </div>
           <div className="flex flex-row sm:flex-col sm:items-center justify-center gap-4  ">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf3XwVfAIzIamPxMRl32ZD9vT2mzKMnkJ6KSSNUKNrLMhKceA/viewform"
-              target="_blank"
+              href="https://hack2skill.com/hack/hacktheleague3?utm_source=htlwebsite&utm_medium=htl"
               rel="noreferrer"
             >
               <button className="px-6 py-3  border-[#4652DD] bg-none bg-opacity-20 hover:bg-white hover:text-black ease-in hover:duration-300 border rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center text-white  text-2xl  sm:text-lg">
