@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-      <div className="bg-frame -my-40 bg-contain sm:-my-44  bg-no-repeat bg-center lg:bg-contain sm:bg-contain ">
+      {/* <div className="bg-frame  bg-cover sm:-my-44   bg-no-repeat bg-center  sm:bg-contain ">
         <div className="h-96 sm:h-80" />
-      </div>
+      </div> */}
       <HTLStrips />
       <AboutUs />
       <div className="h-48 lg:h-24 sm:h-20" />

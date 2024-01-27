@@ -11,7 +11,7 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <main className="bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-no-repeat bg-cover  z-30">
+    <main className="bg-cover bg-gradient z-30">
       <Navbar />
       <Outlet />
       <Footer />
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+// bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-no-repeat  bg-cover

@@ -1,9 +1,38 @@
 import { NavLink } from "react-router-dom";
 import { TbChevronsDown, TbChevronsUp } from "react-icons/tb";
-import { useState } from "react";
+import { FaDiscord, FaHeart } from "react-icons/fa";
+import { MdOutlineDateRange } from "react-icons/md";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
+  const [snackbar, setSnackBar] = useState(false);
+  const [value, setValue] = useState(0);
+  useEffect(() => {
+    if (snackbar) {
+      const timeout = setTimeout(() => snackbarClose(), 2000);
+      return () => {
+        clearTimeout(timeout);
+      };
+    }
+  }, [snackbar]);
+
+  const snackbarClose = () => {
+    setSnackBar(false);
+  };
+
+  const showSomeLove = async () => {
+    let response = await axios.get(
+      "https://htl-backend-production.up.railway.app/showhtlsomelove"
+    );
+    console.log(response);
+    setValue(response.data.value);
+  };
+
+  useEffect(() => {
+    showSomeLove();
+  }, []);
 
   return (
     <nav className="sticky z-40 h-20 flex flex-row justify-between p-4">
@@ -12,11 +41,11 @@ const Navbar = () => {
           src={
             "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290493/hacktheleague/logo_vukuk2.png"
           }
-          className="w-36  lg:w-24 sm:w-20 "
+          className="w-24   sm:w-20 "
           alt="htl-logo"
         />
       </NavLink>
-      <ul className="flex flex-row  justify-center place-items-center gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-8 text-white sm:hidden ">
+      <ul className="flex flex-row   justify-center place-items-center gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-8 text-white sm:hidden ">
         <li className="">
           <a className="hover:underline" href="/">
             Home
@@ -100,7 +129,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <NavLink
+      {/* <NavLink
         target="_blank"
         className="z-50"
         rel="noreferrer"
@@ -110,10 +139,21 @@ const Navbar = () => {
           src={
             "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290497/hacktheleague/MLH_vv6xor.png"
           }
-          className="w-30  lg:w-24  sm:w-16 "
+          className="w-30  lg:w-24  sm:w-16 hidden"
           alt="mlh-logo"
         />
-      </NavLink>
+      </NavLink> */}
+
+          <button
+            className="px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
+            onClick={() => {
+              setValue(value + 1);
+              setSnackBar(true), showSomeLove();
+            }}
+          >
+            <FaHeart className="animate-pulse " color="red" />
+            <span className="text-lg">{value}</span>
+          </button>
     </nav>
   );
 };
