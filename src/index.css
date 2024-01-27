@@ -9,6 +9,12 @@
   src: local("JUSTICE LEAGUE"),
     url("assets/fonts/JUSTICELEAGUE.ttf") format("woff");
 }
+@font-face {
+  font-family: "Mokoto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Mokoto"), url("assets/fonts/Mokoto.ttf") format("woff");
+}
 
 @keyframes marquee {
   0% {

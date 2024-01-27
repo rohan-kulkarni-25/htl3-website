@@ -30,6 +30,7 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         justiceLeague: ["JUSTICE LEAGUE", "cursive"],
+        mokoto: ["Mokoto", "cursive"],
       }
     },
     // fontFamily: {

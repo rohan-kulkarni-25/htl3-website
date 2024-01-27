@@ -8,12 +8,7 @@ const PreviousEvents = () => {
         </h2>
       </div>
       <div className="flex flex-wrap flex-row  justify-evenly  gap-12 ">
-        {/* <img src={IMG1} className="" alt="event 1 " /> */}
-        {/* <img src={IMG6} className="h-72 w-fit " alt="event 2" /> */}
-        {/* <img src={IMG2} className="h-72 w-fit " alt="event 3" /> */}
-        {/* <img src={IMG3} className="h-72 w-fit " alt="event 4" /> */}
-        {/* <img src={IMG4} className="h-72 w-fit " alt="event 5" /> */}
-        {/* <img src={IMG5} className=" h-72 w-fit" alt="event 6" /> */}
+        <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706329922/hacktheleague/Profile_Card_-_Container_1_-min_aeapsi.png" />
       </div>
 
       <div className=" h-36 bg-black rounded-3xl bg-opacity-30 backdrop-filter backdrop-blur-lgp-6 flex flex-row justify-evenly place-items-center  gap-y-4 lg:flex-wrap lg:h-full lg:p-8 sm:gap-4">
