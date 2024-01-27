@@ -68,7 +68,7 @@ const HeroSection = () => {
             </a>
           </div>
         </div>
-        <div className="mx-128 lg:mx-80 my-8">
+        <div className="mx-128 lg:mx-36 my-8">
           <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706334583/hacktheleague/Frame26_1_edqiow.png" />
         </div>
       </div>
