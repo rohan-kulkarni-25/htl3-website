@@ -75,7 +75,7 @@ const PreviousSponsors = () => {
       </div>
       <a
         className="w-fit mx-auto px-6 py-3 border-[#4652DD] bg-white bg-opacity-20 hover:bg-white hover:text-black ease-in hover:duration-300 border rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center text-white  text-2xl lg:text-xl sm:text-lg"
-        href="https://drive.google.com/file/d/1AaZPD9CRkoCy3bECMltn_yYW-0H8XPio/view"
+        href="https://drive.google.com/file/d/1KJMConV1ebavkI0SQMdl5zcZM3DB1JrX/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
