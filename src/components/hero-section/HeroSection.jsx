@@ -51,7 +51,7 @@ const HeroSection = () => {
             </span>
             <div className="flex-1 h-0.5 rounded-sm bg-white" />
           </div>
-          <div className="flex gap-4 justify-center items-center">
+          <div className="flex gap-4 justify-center items-center sm:flex-col">
             <a
               href="https://maps.app.goo.gl/nTeQAawas7DR4rNQ6"
               target="_blank"
@@ -63,7 +63,7 @@ const HeroSection = () => {
                 JECRC UNIVERSITY
               </span>
             </a>
-            <div className="w-0.5 sm:w-px rounded-lg h-8 bg-white" />
+            <div className="w-0.5 sm:w-px rounded-lg h-8 bg-white sm:hidden" />
             <div className="flex gap-2  items-center justify-center ">
               <FaCalendarCheck color="white" className="w-8 h-8 sm:w-6" />
               <p className="text-white text-3xl sm:text-2xl font-mokoto tracking-widest flex flex-row items-center  justify-center ">
