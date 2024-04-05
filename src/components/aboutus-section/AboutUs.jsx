@@ -11,8 +11,8 @@ const AboutUs = () => {
         <p className="w-1/2 text-white text-2xl leading-loose text-justify font-poppins lg:w-full sm:text-lg">
           Hack The League envisions the empowering combination of technology and
           opportunities to generate practical solutions for real-world problems
-          and produce an ever-increasing impact. HTL 1.0 witnessed 2200+
-          members, 180+ projects, 10+ workshops and sessions and increased
+          and produce an ever-increasing impact. HTL 1.0 & 2.0 witnessed 3000+
+          members, 220+ projects, 20+ workshops and sessions and increased
           professional creativity and self-expression by using the most
           innovative and modern technological solutions with the spirit of
           impact driven community.
