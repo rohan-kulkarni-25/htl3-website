@@ -57,7 +57,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/tracks" className="hover:underline">
+          <NavLink to="/communitypartners" className="hover:underline">
             Community Partners
           </NavLink>
         </li>

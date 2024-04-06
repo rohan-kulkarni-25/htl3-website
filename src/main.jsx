@@ -6,6 +6,7 @@ import Home from "./pages/Home.jsx";
 import LeagueHeroes from "./pages/LeagueHeroes.jsx";
 import Team from "./pages/Team.jsx";
 import TracksPage from "./pages/TracksPage.jsx";
+import CommunityPartner from "./pages/CommunityPartner.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
       { path: "/leagueHeroes", element: <LeagueHeroes /> },
       { path: "/team", element: <Team /> },
       { path: "/tracks", element: <TracksPage /> },
+      { path: "/communitypartners", element: <CommunityPartner /> },
     ],
   },
 ]);

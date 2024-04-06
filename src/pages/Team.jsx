@@ -1,3 +1,4 @@
+import PageHeading from "../components/PageHeading";
 import TeamCard from "../components/TeamCard";
 
 const Team = () => {
@@ -108,19 +109,10 @@ const Team = () => {
     },
   ];
   return (
-    <section className="mx-48 flex flex-col gap-24 lg:mx-24 sm:mx-8 my-24 sm:gap-12">
-      <div className="flex flex-row gap-7 place-items-center ">
-        <h2 className="text-5xl font-semibold font-poppins text-white lg:text-5xl sm:text-3xl">
-          HTL Team
-        </h2>
-        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
-      </div>
+    <section className=" flex flex-col gap-8  mt-8  mx-24 sm:mx-4 sm:gap-12 overflow-hidden">
+      <PageHeading title={"[TEAM]"} />
 
-      <span className=" text-white text-xl font-poppins font-normal -mt-12 font-mono sm:-mt-0 lg:text-xl sm:text-lg">
-        The team consists of passionate developers who desire to create a change
-        with the power of technology! The team is the soul of this hackathon!
-      </span>
-      <div className="flex flex-wrap justify-evenly flex-row place-items-center gap-8 gap-y-8 sm:gap-2">
+      <div className="flex flex-row flex-wrap gap-12  pb-24 justify-center sm:gap-3 h-full overflow-y-scroll">
         {teamMembers.map((member) => (
           <TeamCard
             name={member.name}
