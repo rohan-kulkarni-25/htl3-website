@@ -35,21 +35,31 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="sticky z-40 h-20 flex flex-row justify-between p-4">
-      <NavLink to="/" className="z-50">
+    <nav className="w-3/4 mx-auto mt-4 z-40 h-20 flex flex-row justify-center  p-4">
+      <NavLink to="/" className="z-50 absolute top-0  left-0">
         <img
           src={
             "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290493/hacktheleague/logo_vukuk2.png"
           }
-          className="w-24   sm:w-20 "
+          className="w-36 sm:w-20 "
           alt="htl-logo"
         />
       </NavLink>
-      <ul className="flex flex-row   justify-center place-items-center gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-8 text-white sm:hidden ">
+      <ul className="flex flex-row   justify-center place-items-center gap-8 tracking-wider font-medium text-2xl lg:text-xl  sm:text-sm sm:gap-8 text-white sm:hidden ">
         <li className="">
           <a className="hover:underline" href="/">
             Home
           </a>
+        </li>
+        <li>
+          <NavLink to="/tracks" className="hover:underline">
+            Tracks
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/tracks" className="hover:underline">
+            Community Partners
+          </NavLink>
         </li>
 
         <li>
@@ -62,16 +72,7 @@ const Navbar = () => {
             Sponsors
           </a>
         </li>
-        <li className="sm:hidden">
-          <a
-            className="hover:underline"
-            href="https://chapter2-htl.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Chapter-2
-          </a>
-        </li>
+
         <li>
           <NavLink to="/team" className="hover:underline">
             Team
@@ -129,7 +130,33 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* <NavLink
+      <button
+        className="absolute top-2 right-2 px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
+        onClick={() => {
+          setValue(value + 1);
+          setSnackBar(true), showSomeLove();
+        }}
+      >
+        <FaHeart className="animate-pulse " color="red" />
+        <span className="text-lg">{value}</span>
+      </button>
+    </nav>
+  );
+};
+
+export default Navbar;
+{
+  /* {snackbar && (
+        <div className=" bg-white p-4   bottom-10 text-2xl animate-bounce rounded-xl w-1/2 sm:text-xs">
+          <div className="flex-row text-center">
+            <p>Hack The League ❤️ you {value} times !!!</p>
+          </div>
+        </div>
+      )} */
+}
+
+{
+  /* <NavLink
         target="_blank"
         className="z-50"
         rel="noreferrer"
@@ -142,27 +169,18 @@ const Navbar = () => {
           className="w-30  lg:w-24  sm:w-16 hidden"
           alt="mlh-logo"
         />
-      </NavLink> */}
+      </NavLink> */
+}
 
-      <button
-        className="px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
-        onClick={() => {
-          setValue(value + 1);
-          setSnackBar(true), showSomeLove();
-        }}
-      >
-        <FaHeart className="animate-pulse " color="red" />
-        <span className="text-lg">{value}</span>
-      </button>
-      {/* {snackbar && (
-        <div className=" bg-white p-4   bottom-10 text-2xl animate-bounce rounded-xl w-1/2 sm:text-xs">
-          <div className="flex-row text-center">
-            <p>Hack The League ❤️ you {value} times !!!</p>
-          </div>
-        </div>
-      )} */}
-    </nav>
-  );
-};
-
-export default Navbar;
+{
+  /* <li className="sm:hidden">
+          <a
+            className="hover:underline"
+            href="https://chapter2-htl.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Chapter-2
+          </a>
+        </li> */
+}

@@ -1,10 +1,4 @@
-import {
-  FaCalendar,
-  FaCalendarCheck,
-  FaDiscord,
-  FaHeart,
-  FaMapPin,
-} from "react-icons/fa";
+import { FaCalendarCheck, FaDiscord, FaMapPin } from "react-icons/fa";
 import { MdOutlineDateRange } from "react-icons/md";
 import { useEffect, useState } from "react";
 import axios from "axios";
@@ -38,20 +32,20 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <main className="flex mt-24 flex-row  justify-center  sm:mt-24 sm:my-0">
-      <div className="w-full px-4 flex flex-col ">
-        <div className="gap-y-12 flex flex-col">
-          <h1 className="text-7xl font-bold text-white text-center font-justiceLeague  sm:text-4xl">
+    <main className="flex h-full items-center mt-12 flex-row  justify-center  sm:mt-24 sm:my-0 overflow-hidden">
+      <div className="h-full w-full px-4 flex flex-col z-10 items-center justify-center">
+        <div className="gap-y-8 flex flex-col ">
+          <h1 className="text-8xl font-bold text-white text-center font-justiceLeague  sm:text-4xl ">
             HACK THE LEAGUE
           </h1>
           <div className="text-center text-5xl font-semibold font-mono flex flex-row justify-evenly place-items-center gap-9">
             <div className="flex-1 h-0.5 rounded-sm bg-white" />
-            <span className="text-4xl text-white  sm:text-2xl font-mokoto tracking-widest">
+            <span className="text-4xl text-white  sm:text-2xl font-mokoto tracking-widest  ">
               CHAPTER - 3
             </span>
             <div className="flex-1 h-0.5 rounded-sm bg-white" />
           </div>
-          <div className="flex gap-4 justify-center items-center sm:flex-col">
+          <div className="flex gap-4 justify-center items-center sm:flex-col  ">
             <a
               href="https://maps.app.goo.gl/nTeQAawas7DR4rNQ6"
               target="_blank"
@@ -71,12 +65,12 @@ const HeroSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row sm:flex-col sm:items-center justify-center gap-4  ">
+          <div className="flex flex-row sm:flex-col sm:items-center justify-center gap-4  animate-pulse">
             <a
               href="https://hack2skill.com/hack/hacktheleague3?utm_source=htlwebsite&utm_medium=htl"
               rel="noreferrer"
             >
-              <button className="px-6 py-3  border-[#4652DD] bg-none bg-opacity-20 hover:bg-white hover:text-black ease-in hover:duration-300 border rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center text-white  text-2xl  sm:text-lg">
+              <button className="px-6 py-3  border-[#4652DD] bg-none  bg-white hover:text-black ease-in hover:duration-300 border rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center   text-2xl  sm:text-lg">
                 <MdOutlineDateRange />
                 Register
               </button>
@@ -86,17 +80,19 @@ const HeroSection = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="px-6 py-3  border-[#4652DD] bg-none bg-opacity-20 hover:bg-white hover:text-black ease-in hover:duration-300 border  rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center text-white text-2xl  sm:text-lg">
+              <button className="px-6 py-3  border-[#4652DD] bg-none  bg-white hover:text-black ease-in hover:duration-300 border  rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center  text-2xl  sm:text-lg">
                 <FaDiscord />
                 Join Discord
               </button>
             </a>
           </div>
         </div>
-        <div className="mx-128 lg:mx-72 my-8 sm:mx-8">
-          <img src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706334583/hacktheleague/Frame26_1_edqiow.png" />
-        </div>
       </div>
+
+      <img
+        src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706334583/hacktheleague/Frame26_1_edqiow.png"
+        className="aspect-auto flex-1 absolute opacity-50"
+      />
     </main>
   );
 };
