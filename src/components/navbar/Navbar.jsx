@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { TbChevronsDown, TbChevronsUp } from "react-icons/tb";
-import { FaDiscord, FaHeart } from "react-icons/fa";
-import { MdOutlineDateRange } from "react-icons/md";
+import { FaHeart } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -57,6 +56,11 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/prizes" className="hover:underline">
+            Prizes
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/communitypartners" className="hover:underline">
             Community Partners
           </NavLink>
@@ -68,7 +72,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <a href="/#sponsors" className="hover:underline">
+          <a href="/sponsors" className="hover:underline">
             Sponsors
           </a>
         </li>
@@ -91,37 +95,43 @@ const Navbar = () => {
         }`}
       >
         <ul className="flex flex-col  justify-center place-items-center  gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-4 text-black">
-          <li className="">
-            <a className="hover:underline" href="/">
-              Home
-            </a>
-          </li>
+        <li className="">
+          <a className="hover:underline" href="/">
+            Home
+          </a>
+        </li>
+        <li>
+          <NavLink to="/tracks" className="hover:underline">
+            Tracks
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/prizes" className="hover:underline">
+            Prizes
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/communitypartners" className="hover:underline">
+            Community Partners
+          </NavLink>
+        </li>
 
-          <li>
-            <NavLink to="/leagueHeroes" className="hover:underline">
-              League Heroes
-            </NavLink>
-          </li>
-          <li>
-            <a href="/#sponsors" className="hover:underline">
-              Sponsors
-            </a>
-          </li>
-          <li className="sm:hidden">
-            <a
-              className="hover:underline"
-              href="https://chapter2-htl.vercel.app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Chapter-2
-            </a>
-          </li>
-          <li>
-            <NavLink to="/team" className="hover:underline">
-              Team
-            </NavLink>
-          </li>
+        <li>
+          <NavLink to="/leagueHeroes" className="hover:underline">
+            League Heroes
+          </NavLink>
+        </li>
+        <li>
+          <a href="/sponsors" className="hover:underline">
+            Sponsors
+          </a>
+        </li>
+
+        <li>
+          <NavLink to="/team" className="hover:underline">
+            Team
+          </NavLink>
+        </li>
           <TbChevronsUp
             color="black"
             size={32}

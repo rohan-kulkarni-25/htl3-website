@@ -1,24 +1,16 @@
-import React from "react";
+import PageHeading from "../components/PageHeading";
 import TrackCard from "../components/tracks/TrackCard";
 
 const TracksPage = () => {
   return (
     <div className="h-full flex flex-col w-full  items-center mx-auto py-12 overflow-y-scroll ">
-      <div className="flex flex-row items-center w-3/4 justify-center  mx-auto gap-8">
-        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
-        <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text">
-          <p className=" font-mokoto text-6xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text">
-            [Tracks]
-          </p>
-        </div>
-        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-1/3"></p>
-      </div>
+      <PageHeading title={"[TRACKS]"}/>
       <div className="flex flex-row flex-wrap w-full mx-auto justify-center items-center py-12 gap-4 mt-4">
-        <TrackCard title={"ENVIRONMENT & CLIMATE CHANGE"} />
-        <TrackCard />
-        <TrackCard />
-        <TrackCard />
-        <TrackCard />
+        <TrackCard title={"ENVIRONMENT & CLIMATE CHANGE"} content={"Climate Crisis Alert! Bring the Green Hero inside you to life and integrate sustainable measures to regulate the latest technologies"} trackno={"TRACK 1"} />
+        <TrackCard title={"Web3 & Blockchain"} content={"Become a third-generation superhero by using your powers to create new-gen Web Applications, NFT, DAO, DFI and work with decentralized Blockchain."} trackno={"TRACK 2"}/>
+        <TrackCard title={"Developer & Productivity Tools"} content={"Developer tools are one of the major aspects of our builder ecosystem productivity and there's a need to bring more innovation to this sector of our industry."} trackno={"TRACK 3"}/>
+        <TrackCard title={"Mental Health & Productivity"} content={"Pull on your capes to develop solutions for people who are wearing a mask to hide mental health challenges. There is strength in admitting you might need help or that something might not be right."} trackno={"TRACK 4"}/>
+        <TrackCard title={"Open Innovation"} content={"Pull on your capes to develop solutions for people who are wearing a mask to hide mental health challenges. There is strength in admitting you might need help or that something might not be right."} trackno={"TRACK 5"}/>
       </div>
     </div>
   );

@@ -32,8 +32,8 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <main className="flex h-full items-center mt-12 flex-row  justify-center  sm:mt-24 sm:my-0 overflow-hidden">
-      <div className="h-full w-full px-4 flex flex-col z-10 items-center justify-center">
+    <main className="flex h-full items-center mt-12 flex-row  justify-center  sm:my-0 overflow-hidden ">
+      <div className="h-full w-full px-4 flex flex-col z-10 items-center justify-center ">
         <div className="gap-y-8 flex flex-col ">
           <h1 className="text-8xl font-bold text-white text-center font-justiceLeague  sm:text-4xl ">
             HACK THE LEAGUE
@@ -65,7 +65,7 @@ const HeroSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-row sm:flex-col sm:items-center justify-center gap-4  animate-pulse">
+          <div className="flex flex-row sm:flex-row sm:items-center justify-center gap-4  animate-pulse ">
             <a
               href="https://hack2skill.com/hack/hacktheleague3?utm_source=htlwebsite&utm_medium=htl"
               rel="noreferrer"
@@ -91,7 +91,7 @@ const HeroSection = () => {
 
       <img
         src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706334583/hacktheleague/Frame26_1_edqiow.png"
-        className="aspect-auto flex-1 absolute opacity-50"
+        className="aspect-auto flex-1 absolute opacity-50 sm:bottom-10"
       />
     </main>
   );
@@ -99,22 +99,3 @@ const HeroSection = () => {
 
 export default HeroSection;
 
-{
-  /* <div className="mx-auto "> */
-}
-{
-  /* <button
-            className="px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
-            onClick={() => {
-              setValue(value + 1);
-              setSnackBar(true), showSomeLove();
-            }}
-          >
-            <FaHeart className="animate-pulse " color="red" />
-            <span className="text-lg">{value}</span>
-          </button> */
-}
-
-{
-  /* </div> */
-}

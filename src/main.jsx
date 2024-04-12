@@ -7,6 +7,8 @@ import LeagueHeroes from "./pages/LeagueHeroes.jsx";
 import Team from "./pages/Team.jsx";
 import TracksPage from "./pages/TracksPage.jsx";
 import CommunityPartner from "./pages/CommunityPartner.jsx";
+import Prizes from "./pages/Prizes.jsx";
+import Sponsors from "./pages/Sponsors.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,8 @@ const router = createBrowserRouter([
       { path: "/team", element: <Team /> },
       { path: "/tracks", element: <TracksPage /> },
       { path: "/communitypartners", element: <CommunityPartner /> },
+      { path: "/prizes", element: <Prizes /> },
+      { path: "/sponsors", element: <Sponsors /> },
     ],
   },
 ]);
