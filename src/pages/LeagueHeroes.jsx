@@ -1,4 +1,5 @@
-import MentorCard from './../components/previousMentors-section/MentorCard'
+import PageHeading from "../components/PageHeading";
+import MentorCard from "./../components/previousMentors-section/MentorCard";
 
 const LeagueHeroes = () => {
   const Mentors = [
@@ -179,14 +180,9 @@ const LeagueHeroes = () => {
     },
   ];
   return (
-    <section className=" flex flex-col gap-24 my-24 mx-24 sm:mx-4 sm:gap-12">
-      <div className="mx-48 flex flex-row gap-7 place-items-center lg:mx-24 sm:mx-4">
-        <h2 className="text-5xl font-semibold font-poppins text-white lg:text-5xl sm:text-3xl">
-          League Heroes
-        </h2>
-        <p className="h-0.5 rounded-lg flex-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></p>
-      </div>
-      <div className="flex flex-row flex-wrap gap-12 justify-center  sm:gap-3  ">
+    <section className=" flex flex-col gap-8  mt-8  mx-24 sm:mx-4 sm:gap-12 overflow-hidden">
+      <PageHeading title={"[LEAGUE HEROES]"} />
+      <div className="flex flex-row flex-wrap gap-12  pb-24 justify-center sm:gap-3 h-full overflow-y-scroll ">
         {Mentors.map((mentor) => (
           <MentorCard
             imgSrc={mentor.imgSrc}

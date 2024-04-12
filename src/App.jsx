@@ -1,8 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
-
-import Footer from "./components/footer/Footer";
 import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import StripFooter from "./components/stripfooter/StripFooter";
 
 function App() {
   const { pathname } = useLocation();
@@ -11,13 +10,13 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <main className="bg-cover bg-gradient z-30">
+    <main className="bg-cover bg-no-repeat bg-gradient z-30 h-screen overflow-hidden flex flex-col justify-start ">
       <Navbar />
       <Outlet />
-      <Footer />
+      <StripFooter />
     </main>
   );
 }
 
 export default App;
-// bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900 bg-no-repeat  bg-cover
+

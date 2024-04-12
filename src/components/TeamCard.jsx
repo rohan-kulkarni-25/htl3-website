@@ -1,13 +1,15 @@
 // eslint-disable-next-line react/prop-types
 const TeamCard = ({ imgSrc, name }) => {
   return (
-    <div className="flex flex-col items-center gap-4 sm:gap-2">
-      <div className="rounded-full bg-purple-600 p-1 ">
-        <div className="rounded-full w-48 h-48 overflow-hidden lg:w-36 lg:h-36 sm:w-16 sm:h-16">
-          <img src={imgSrc} alt="img" className="w-full h-full object-cover " />
-        </div>
+    <div className="flex flex-col gap-4 sm:gap-2 flex-wrap sm:mt-4 shadow-sm   rounded-md">
+      <div className=" rounded-2xl   w-36 h-36  sm:w-24 sm:h-24 sm:rounded-lg">
+        <img
+          className="w-full h-full p-1  sm:rounded-xl sm:p-1 rounded-full "
+          src={imgSrc}
+          alt={name}
+        />
       </div>
-      <span className="text-white text-center font-normal font-poppins text-lg sm:text-xs lg:w-36 lg:h-36 sm:w-16 sm:h-16">
+      <span className="text-white text-center text-sm font-poppins lg:text-sm sm:text-sm w-36  sm:w-24 ">
         {name}
       </span>
     </div>
