@@ -34,7 +34,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="w-3/4 mx-auto mt-4 z-40 h-20 flex flex-row justify-center  p-4">
+    <nav className="w-3/4 mx-auto mt-4 z-40 h-20 flex cursor-pointer flex-row justify-center font-mokoto  p-4">
       <NavLink to="/" className="z-50 absolute top-0  left-0">
         <img
           src={

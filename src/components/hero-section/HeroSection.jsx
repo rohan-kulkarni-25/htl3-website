@@ -53,7 +53,7 @@ const HeroSection = () => {
               className="flex gap-1 items-center justify-center"
             >
               <FaMapPin color="white" className="w-8 h-8 sm:w-6" />
-              <span className="text-white text-3xl sm:text-2xl font-justiceLeague">
+              <span className="text-white text-3xl sm:text-2xl font-mokoto">
                 JECRC UNIVERSITY
               </span>
             </a>
