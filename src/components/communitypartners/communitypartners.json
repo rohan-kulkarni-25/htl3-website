@@ -1,10 +1,41 @@
 {
     "partners":[
-        {
-            "url":"https://res.cloudinary.com/dw58xmffd/image/upload/v1712436318/k2dijlbzecceww9fnjaq.png",
-            "name":"TechBrewers",
-            "socialprofile":"http://rohankulkarni.dev"
-        }
 
+  {
+    "name": "Club TechBrewers",
+    "Community Logo": "https://drive.google.com/drive/folders/1IQOpzydf6TpsRUpgsCXPN2VC4e-27sul?usp=share_link",
+    "socialprofile": "https://drive.google.com/drive/folders/1IQOpzydf6TpsRUpgsCXPN2VC4e-27sul?usp=share_link",
+    "url": "https://res.cloudinary.com/dw58xmffd/image/upload/v1712436318/k2dijlbzecceww9fnjaq.png"
+  },
+  {
+    "name": "Archway ABESIT Student Chapter",
+    "Community Logo": "https://drive.google.com/drive/folders/1b08pGVrzyltYCIMLHILI339zCJvCvPt9?usp=sharing",
+    "socialprofile": "https://linktr.ee/ArchwayABESIT",
+    "url": "https://res.cloudinary.com/dix08awez/image/upload/v1713032836/archway_o3hfmv.png"
+  },
+  {
+    "name": "SDC USICT",
+    "Community Logo": "https://photos.app.goo.gl/1AhSDQ2Cirm5fAEHA",
+    "socialprofile": "https://x.com/SDC_USS?t=6Zl7F30TNk245J2Rvqzr1g&s=09",
+    "url": "https://res.cloudinary.com/dix08awez/image/upload/v1713033127/Untitled_design_1_ii5afb.jpg"
+  },
+  {
+    "name": "FOSS Club IIIT Kalyani",
+    "Community Logo": "https://drive.google.com/drive/folders/19JvBx7w2rwi490Uymg5eqkkEmEv_o2Q3?usp=sharing",
+    "socialprofile": "https://fossclub.bio.link",
+    "url": "https://res.cloudinary.com/dix08awez/image/upload/v1713033216/foss_cmeg12.jpg"
+  },
+  {
+    "name": "The Cyborgs",
+    "Community Logo": "https://drive.google.com/drive/folders/1Q1WQDVlgnPNQs5BZ0ei54T4DFtWhdCqo",
+    "socialprofile": "https://thecyborgs.vercel.app/",
+    "url": "https://res.cloudinary.com/dix08awez/image/upload/v1713033374/cyborg_y8shnf.png"
+  },
+  {
+    "name": "Hack4Bengal",
+    "Community Logo": "https://drive.google.com/drive/folders/1Bf2LpGeVMbjVtuYRibPoJf7AxG2kYDKh",
+    "socialprofile": "https://hack4bengal.tech",
+    "url": "https://res.cloudinary.com/dix08awez/image/upload/v1713033489/hack4bengal_hscnw6.png"
+  },
     ]
 }
