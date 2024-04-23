@@ -44,43 +44,58 @@ const Navbar = () => {
           alt="htl-logo"
         />
       </NavLink>
-      <ul className="flex flex-row   justify-center place-items-center gap-8 tracking-wider font-medium text-2xl lg:text-xl  sm:text-sm sm:gap-8 text-white sm:hidden ">
-        <li className="">
+      <ul className="flex flex-row underline-offset-4 underline  justify-center place-items-center gap-6 tracking-wider  font-medium  text-sm lg:text-xl  sm:text-sm sm:gap-8 text-white sm:hidden ">
+        <li className=" text-sm hover:scale-105">
           <a className="hover:underline" href="/">
             Home
           </a>
         </li>
-        <li>
+        <li className=" text-sm hover:scale-105">
+          <a className="hover:underline" href="/about">
+            About
+          </a>
+        </li>
+        <li className=" text-sm hover:scale-105">
           <NavLink to="/tracks" className="hover:underline">
             Tracks
           </NavLink>
         </li>
-        <li>
+        <li className=" text-sm hover:scale-105">
           <NavLink to="/prizes" className="hover:underline">
             Prizes
           </NavLink>
         </li>
-        <li>
+        <li className=" text-sm hover:scale-105">
           <NavLink to="/communitypartners" className="hover:underline">
             Community Partners
           </NavLink>
         </li>
 
-        <li>
+        <li className=" text-sm hover:scale-105">
           <NavLink to="/leagueHeroes" className="hover:underline">
             League Heroes
           </NavLink>
         </li>
-        <li>
+
+        <li className=" text-sm hover:scale-105">
           <a href="/sponsors" className="hover:underline">
             Sponsors
           </a>
         </li>
-
-        <li>
+        <li className=" text-sm hover:scale-105">
+          <NavLink to="/evangelists" className="hover:underline">
+            EVANGELISTS
+          </NavLink>
+        </li>
+        <li className=" text-sm hover:scale-105">
           <NavLink to="/team" className="hover:underline">
             Team
           </NavLink>
+        </li>
+        <li className=" text-sm hover:scale-105">
+          <a href="https://chapter2-htl.vercel.app" className="hover:underline">
+            Chapter 2
+          </a>
         </li>
       </ul>
       <TbChevronsDown
@@ -94,7 +109,7 @@ const Navbar = () => {
           showNav ? "block" : "hidden"
         }`}
       >
-        <ul className="flex flex-col  justify-center place-items-center  gap-16 text-2xl lg:text-xl font-semibold sm:text-sm sm:gap-4 text-black">
+        <ul className="flex flex-col  justify-center place-items-center  gap-16 text-xl lg:text-xl font-semibold sm:text-sm sm:gap-4 text-black">
         <li className="">
           <a className="hover:underline" href="/">
             Home
@@ -141,56 +156,17 @@ const Navbar = () => {
       </div>
 
       <button
-        className="absolute top-2 right-2 px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-lg"
+        className="absolute top-2 right-2 px-6 py-3 gap-4 border-[#4652DD] bg-none bg-white text-black ease-in hover:duration-300 border hover:text-red-500 rounded-2xl font-medium font-poppins flex flex-row justify-center  items-center text-2xl lg:text-xl sm:text-sm"
         onClick={() => {
           setValue(value + 1);
           setSnackBar(true), showSomeLove();
         }}
       >
         <FaHeart className="animate-pulse " color="red" />
-        <span className="text-lg">{value}</span>
+        <span className="text-sm">{value}</span>
       </button>
     </nav>
   );
 };
 
 export default Navbar;
-{
-  /* {snackbar && (
-        <div className=" bg-white p-4   bottom-10 text-2xl animate-bounce rounded-xl w-1/2 sm:text-xs">
-          <div className="flex-row text-center">
-            <p>Hack The League ❤️ you {value} times !!!</p>
-          </div>
-        </div>
-      )} */
-}
-
-{
-  /* <NavLink
-        target="_blank"
-        className="z-50"
-        rel="noreferrer"
-        to="https://mlh.io/"
-      >
-        <img
-          src={
-            "https://res.cloudinary.com/dw58xmffd/image/upload/v1706290497/hacktheleague/MLH_vv6xor.png"
-          }
-          className="w-30  lg:w-24  sm:w-16 hidden"
-          alt="mlh-logo"
-        />
-      </NavLink> */
-}
-
-{
-  /* <li className="sm:hidden">
-          <a
-            className="hover:underline"
-            href="https://chapter2-htl.vercel.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Chapter-2
-          </a>
-        </li> */
-}
