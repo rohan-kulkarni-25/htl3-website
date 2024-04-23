@@ -82,11 +82,11 @@ const Navbar = () => {
             Sponsors
           </a>
         </li>
-        <li className=" text-sm hover:scale-105">
+        {/* <li className=" text-sm hover:scale-105">
           <NavLink to="/evangelists" className="hover:underline">
             EVANGELISTS
           </NavLink>
-        </li>
+        </li> */}
         <li className=" text-sm hover:scale-105">
           <NavLink to="/team" className="hover:underline">
             Team
