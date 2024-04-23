@@ -10,7 +10,7 @@ import CommunityPartner from "./pages/CommunityPartner.jsx";
 import Prizes from "./pages/Prizes.jsx";
 import Sponsors from "./pages/Sponsors.jsx";
 // import Evangelists from "./pages/Evangelists.jsx";
-import ContestArena from "./pages/ContestArena.jsx";
+// import ContestArena from "./pages/ContestArena.jsx";
 import AboutUs from "./components/aboutus-section/AboutUs.jsx";
 
 const router = createBrowserRouter([
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       { path: "/prizes", element: <Prizes /> },
       { path: "/sponsors", element: <Sponsors /> },
       // { path: "/evangelists", element: <Evangelists /> },
-      { path: "/contestarena", element: <ContestArena /> },
+      // { path: "/contestarena", element: <ContestArena /> },
     ],
   },
 ]);
