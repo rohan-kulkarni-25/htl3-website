@@ -12,6 +12,7 @@ import Sponsors from "./pages/Sponsors.jsx";
 // import Evangelists from "./pages/Evangelists.jsx";
 // import ContestArena from "./pages/ContestArena.jsx";
 import AboutUs from "./components/aboutus-section/AboutUs.jsx";
+import RHP from "./pages/RHP.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path: "/communitypartners", element: <CommunityPartner /> },
       { path: "/prizes", element: <Prizes /> },
       { path: "/sponsors", element: <Sponsors /> },
+      { path: "/remoteHackerProgram", element: <RHP /> },
       // { path: "/evangelists", element: <Evangelists /> },
       // { path: "/contestarena", element: <ContestArena /> },
     ],
