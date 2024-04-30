@@ -61,7 +61,7 @@ const HeroSection = () => {
             <div className="flex gap-2  items-center justify-center ">
               <FaCalendarCheck color="white" className="w-8 h-8 sm:w-6" />
               <p className="text-white text-3xl sm:text-2xl font-mokoto tracking-widest flex flex-row items-center  justify-center ">
-                18th - 19th May
+                25th - 26th May
               </p>
             </div>
           </div>
