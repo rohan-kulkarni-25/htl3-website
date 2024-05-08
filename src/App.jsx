@@ -10,7 +10,7 @@ function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <main className="bg-cover bg-no-repeat bg-gradient z-30 h-screen overflow-hidden flex flex-col justify-start ">
+    <main className="bg-cover sm:bg-cover sm:bg-center sm:bg-repeat-y bg-no-repeat bg-gradient z-30 h-screen overflow-hidden flex flex-col justify-start ">
       <Navbar />
       <Outlet />
       <StripFooter />

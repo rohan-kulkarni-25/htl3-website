@@ -50,19 +50,15 @@ const Navbar = () => {
             Home
           </a>
         </li>
-        <li className=" text-sm hover:scale-105">
-          <a className="hover:underline" href="/about">
-            About
-          </a>
-        </li>
-        <li className=" text-sm hover:scale-105">
+
+        {/* <li className=" text-sm hover:scale-105">
           <NavLink to="/tracks" className="hover:underline">
             Tracks
           </NavLink>
-        </li>
+        </li> */}
         <li className=" text-sm hover:scale-105">
           <NavLink to="/prizes" className="hover:underline">
-            Prizes
+            Bounties & Prizes
           </NavLink>
         </li>
         <li className=" text-sm hover:scale-105">
@@ -93,10 +89,15 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className=" text-sm hover:scale-105">
+          <a className="hover:underline" href="/about">
+            About
+          </a>
+        </li>
+        {/* <li className=" text-sm hover:scale-105">
           <a href="https://chapter2-htl.vercel.app" className="hover:underline">
             Chapter 2
           </a>
-        </li>
+        </li> */}
       </ul>
       <TbChevronsDown
         color="white"
@@ -115,14 +116,14 @@ const Navbar = () => {
             Home
           </a>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/tracks" className="hover:underline">
             Tracks
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to="/prizes" className="hover:underline">
-            Prizes
+          Bounties & Prizes
           </NavLink>
         </li>
         <li>
