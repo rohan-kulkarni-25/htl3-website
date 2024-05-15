@@ -51,6 +51,12 @@ const Navbar = () => {
           </a>
         </li>
 
+        <li className=" text-sm hover:scale-105">
+          <a href="https://guide.hacktheleague.com/schedule" className="hover:underline">
+            Schedule
+          </a>
+        </li>
+
         {/* <li className=" text-sm hover:scale-105">
           <NavLink to="/tracks" className="hover:underline">
             Tracks
