@@ -1,6 +1,7 @@
 import PageHeading from "../components/PageHeading";
 import TBAComponent from "../components/TBAComponent";
 import PrizeCard from "../components/prizes/PrizeCard";
+import BountiesCard from "../components/tracks/BountiesCard";
 import TrackCard from "../components/tracks/TrackCard";
 import TracksPage from "./TracksPage";
 
@@ -8,7 +9,7 @@ const Prizes = () => {
   return (
     <div className="h-full flex flex-col w-full  items-center mx-auto py-12 overflow-y-scroll ">
       <div className="mb-12 ">
-        <PageHeading title={"[HACKATHON PRIZES]"}  />
+        <PageHeading title={"[HACKATHON PRIZES]"} />
         <div className="flex flex-row flex-wrap justify-center  items-center">
           <PrizeCard amount={"35,000"} title={"Winner"} />
           <PrizeCard amount={"25,000"} title={"First Runner Up"} />{" "}
@@ -39,7 +40,20 @@ const Prizes = () => {
       <div className="w-full">
         <PageHeading title={"[ BOUNTIES ]"} />
         <div className="flex flex-row flex-wrap justify-center  items-center">
-          <TBAComponent />
+          <BountiesCard
+            title={"Best MVP of Polygon Cardona"}
+            content={
+              "The Cardona zkEVM Testnet represents the forefront of blockchain scalability and compatibility. We're looking for groundbreaking projects that leverage this technology."
+            }
+            trackno={"POLYGON"}
+          />
+          <BountiesCard
+            title={"Best Use of ChainGPT"}
+            content={
+              "To be eligible, the team must embed our AI solution into the product using the ChainGPT API/SDK. The top 2 winners will get $700 and $300, respectively."
+            }
+            trackno={"CHAINGPT"}
+          />
         </div>
       </div>
     </div>
