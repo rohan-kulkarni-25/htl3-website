@@ -78,7 +78,7 @@ const Sponsors = () => {
           <div className="flex justify-center items-center">
             <SponsorCard
               url="https://res.cloudinary.com/dsdjai01b/image/upload/v1715603016/DablClubLogo-White_owvhmx.png"
-              link="https://github.com/"
+              link="https://www.dabl.club/"
               size={72}
             />
           </div>
