@@ -56,6 +56,11 @@ const Navbar = () => {
             Schedule
           </a>
         </li>
+        <li className=" text-sm hover:scale-105">
+          <a href="/sponsors" className="hover:underline">
+            Sponsors
+          </a>
+        </li>
 
         {/* <li className=" text-sm hover:scale-105">
           <NavLink to="/tracks" className="hover:underline">
@@ -79,11 +84,7 @@ const Navbar = () => {
           </NavLink>
         </li>
 
-        <li className=" text-sm hover:scale-105">
-          <a href="/sponsors" className="hover:underline">
-            Sponsors
-          </a>
-        </li>
+
         {/* <li className=" text-sm hover:scale-105">
           <NavLink to="/evangelists" className="hover:underline">
             EVANGELISTS

@@ -12,13 +12,31 @@ const Sponsors = () => {
 
         <div className="bg-gradient-to-r sm:flex hidden  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text  justify-center">
           <p className=" font-mokoto text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text tracking-widest text-2xl">
-            WEB3 VC PARTNER
+            POWERED BY
           </p>
         </div>
         <div className="flex justify-center items-center w-fit mx-auto py-8 px-12 rounded-md">
           <SponsorCard
             url="https://res.cloudinary.com/dsdjai01b/image/upload/v1715077791/Polygon_Primary_Light_rllkof.png"
             link="https://polygon.technology"
+            size={96}
+          />
+        </div>
+      </div>
+      <div className="flex flex-col gap-12 ">
+        <div className="sm:hidden">
+          <PageHeading title={"[ TITLE PARTNER ]"} />
+        </div>
+
+        <div className="bg-gradient-to-r sm:flex hidden  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text  justify-center">
+          <p className=" font-mokoto text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text tracking-widest text-2xl">
+            TITLE PARTNER{" "}
+          </p>
+        </div>
+        <div className="flex justify-center items-center w-fit mx-auto py-8 px-12 rounded-md">
+          <SponsorCard
+            url="https://res.cloudinary.com/dsdjai01b/image/upload/v1715857540/chaingpt-logoLight-Detail_pnqihm.png"
+            link="https://www.chaingpt.org/"
             size={96}
           />
         </div>
