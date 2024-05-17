@@ -8,6 +8,32 @@ import TracksPage from "./TracksPage";
 const Prizes = () => {
   return (
     <div className="h-full flex flex-col w-full  items-center mx-auto py-12 overflow-y-scroll ">
+      <div className="w-full mb-12">
+        <PageHeading title={"[ BOUNTIES ]"} />
+        <div className="flex flex-row flex-wrap justify-center  items-center">
+          <BountiesCard
+            title={"Best MVP of Polygon Cardona"}
+            content={
+              "The Cardona zkEVM Testnet represents the forefront of blockchain scalability and compatibility. We're looking for groundbreaking projects that leverage this technology."
+            }
+            trackno={"POLYGON"}
+          />
+          <BountiesCard
+            title={"Best Use of ChainGPT"}
+            content={
+              "To be eligible, the team must embed our AI solution into the product using the ChainGPT API/SDK. The top 2 winners will get $700 and $300, respectively."
+            }
+            trackno={"CHAINGPT"}
+          />
+          <BountiesCard
+            title={"Best Use of GitHub"}
+            content={
+              "Win Hack This League’s Best Use of GitHub prize category, first by signing up for GitHub Global Campus and second by using a GitHub repository to host your hackathon project’s code!"
+            }
+            trackno={"CHAINGPT"}
+          />
+        </div>
+      </div>
       <div className="mb-12 ">
         <PageHeading title={"[HACKATHON PRIZES]"} />
         <div className="flex flex-row flex-wrap justify-center  items-center">
@@ -34,30 +60,6 @@ const Prizes = () => {
               "Step into the AI track and unleash your inner superhero! With expertise in machine learning and AI, pioneer new solutions."
             }
             trackno={"TRACK 2"}
-          />
-        </div>
-      </div>
-      <div className="w-full">
-        <PageHeading title={"[ BOUNTIES ]"} />
-        <div className="flex flex-row flex-wrap justify-center  items-center">
-          <BountiesCard
-            title={"Best MVP of Polygon Cardona"}
-            content={
-              "The Cardona zkEVM Testnet represents the forefront of blockchain scalability and compatibility. We're looking for groundbreaking projects that leverage this technology."
-            }
-            trackno={"POLYGON"}
-          />
-          <BountiesCard
-            title={"Best Use of ChainGPT"}
-            content={
-              "To be eligible, the team must embed our AI solution into the product using the ChainGPT API/SDK. The top 2 winners will get $700 and $300, respectively."
-            }
-            trackno={"CHAINGPT"}
-          />
-          <BountiesCard
-            title={"Best Use of GitHub"}
-            content={"Win Hack This League’s Best Use of GitHub prize category, first by signing up for GitHub Global Campus and second by using a GitHub repository to host your hackathon project’s code!"}
-            trackno={"CHAINGPT"}
           />
         </div>
       </div>
