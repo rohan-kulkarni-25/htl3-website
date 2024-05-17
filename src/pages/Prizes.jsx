@@ -54,6 +54,11 @@ const Prizes = () => {
             }
             trackno={"CHAINGPT"}
           />
+          <BountiesCard
+            title={"Best Use of GitHub"}
+            content={"Win Hack This League’s Best Use of GitHub prize category, first by signing up for GitHub Global Campus and second by using a GitHub repository to host your hackathon project’s code!"}
+            trackno={"CHAINGPT"}
+          />
         </div>
       </div>
     </div>
