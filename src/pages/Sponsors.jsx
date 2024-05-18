@@ -30,13 +30,18 @@ const Sponsors = () => {
 
         <div className="bg-gradient-to-r sm:flex hidden  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text  justify-center">
           <p className=" font-mokoto text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text tracking-widest text-2xl">
-            TITLE PARTNER{" "}
+            TITLE PARTNER
           </p>
         </div>
-        <div className="flex justify-center items-center w-fit mx-auto py-8 px-12 rounded-md">
+        <div className="flex justify-center gap-12 items-center w-fit mx-auto py-8 px-12 sm:flex-col rounded-md">
           <SponsorCard
             url="https://res.cloudinary.com/dsdjai01b/image/upload/v1715857540/chaingpt-logoLight-Detail_pnqihm.png"
             link="https://www.chaingpt.org/"
+            size={96}
+          />
+          <SponsorCard
+            url="https://res.cloudinary.com/dsdjai01b/image/upload/v1716043271/gradient-logo-with-white-wordmark-H_a8vzbf.svg"
+            link="https://manta.network/"
             size={96}
           />
         </div>
