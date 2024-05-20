@@ -32,6 +32,13 @@ const Prizes = () => {
             }
             trackno={"GITHUB"}
           />
+          <BountiesCard
+            title={"Best Use of Manta"}
+            content={
+              "Manta Network is seeking projects with exceptional ideas and minimum viable products (MVPs) running on a testnet. These projects will receive extensive support after the hackathon"
+            }
+            trackno={"MANTA NETWORK"}
+          />
         </div>
       </div>
       <div className="mb-12 ">
