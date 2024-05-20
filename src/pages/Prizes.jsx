@@ -19,6 +19,13 @@ const Prizes = () => {
             trackno={"POLYGON"}
           />
           <BountiesCard
+            title={"Best Use of Manta"}
+            content={
+              "Manta Network is seeking projects with exceptional ideas and minimum viable products (MVPs) running on a testnet. These projects will receive extensive support after the hackathon"
+            }
+            trackno={"MANTA NETWORK"}
+          />
+          <BountiesCard
             title={"Best Use of ChainGPT"}
             content={
               "To be eligible, the team must embed our AI solution into the product using the ChainGPT API/SDK. The top 2 winners will get $700 and $300, respectively."
@@ -31,13 +38,6 @@ const Prizes = () => {
               "Win Hack This League’s Best Use of GitHub prize category, first by signing up for GitHub Global Campus and second by using a GitHub repository to host your hackathon project’s code!"
             }
             trackno={"GITHUB"}
-          />
-          <BountiesCard
-            title={"Best Use of Manta"}
-            content={
-              "Manta Network is seeking projects with exceptional ideas and minimum viable products (MVPs) running on a testnet. These projects will receive extensive support after the hackathon"
-            }
-            trackno={"MANTA NETWORK"}
           />
         </div>
       </div>
