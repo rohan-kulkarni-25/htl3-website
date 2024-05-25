@@ -3,7 +3,7 @@ import Schedule from "../components/live/Schedule";
 import TweetsContainer from "../components/live/TweetContainer";
 
 const Live = () => {
-  const startTimestamp = new Date("2024-05-25T11:40:00").getTime();
+  const startTimestamp = new Date("2024-05-25T12:00:00").getTime();
   const endTimestamp = new Date("2024-05-26T01:40:00").getTime();
 
   return (
@@ -24,7 +24,7 @@ const Live = () => {
             style={{ height: "99%" }}
             className=" m-1  from-black bg-countdown bg-cover bg-no-repeat  to-gray-500 overflow-hidden"
           >
-            <div className="h-full relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text overflow-hidden">
+            <div className="h-full  relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text overflow-hidden">
               <img
                 src="https://res.cloudinary.com/dw58xmffd/image/upload/v1716083886/4_rvzylm.png"
                 alt=""

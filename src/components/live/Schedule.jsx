@@ -77,11 +77,11 @@ const Schedule = () => {
   };
 
   return (
-    <div className="h-full px-8 flex flex-col items-start">
+    <div className="h-full px-8 flex flex-col items-start overflow-hidden">
       <p className="mt-12 ml-8 font-justiceLeague text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text text-6xl">
         AGENDA
       </p>
-      <div className="flex flex-col place-self-center gap-4 my-12 mx-12 h-96">
+      <div className="flex  flex-col place-self-center gap-4 my-12 mx-12 h-96">
         {schedule.slice(startIndex, startIndex + 5).map((event) => {
             console.log(event.event);
           return (
