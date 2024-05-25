@@ -77,12 +77,14 @@ const Countdown = ({ startTimestamp, endTimestamp }) => {
     let timeLeft = {};
     if (difference > 0) {
       timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
         hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
         minutes: Math.floor((difference / 1000 / 60) % 60),
         seconds: Math.floor((difference / 1000) % 60),
       };
     } else {
       timeLeft = {
+        days: 0,
         hours: 0,
         minutes: 0,
         seconds: 0,
@@ -125,9 +127,10 @@ const Countdown = ({ startTimestamp, endTimestamp }) => {
           </p>
         )}
         <p className="text-7xl text-center font-mokoto tracking-widest text-white animate-pulse">
-          {String(timeLeft.hours).padStart(2, "0")}:
-          {String(timeLeft.minutes).padStart(2, "0")}:
-          {String(timeLeft.seconds).padStart(2, "0")}
+          {String(timeLeft.days).padStart(2, "0")}d{" "}
+          {String(timeLeft.hours).padStart(2, "0")}h:
+          {String(timeLeft.minutes).padStart(2, "0")}m:
+          {String(timeLeft.seconds).padStart(2, "0")}s
         </p>
       </div>
     </div>
@@ -135,3 +138,4 @@ const Countdown = ({ startTimestamp, endTimestamp }) => {
 };
 
 export default Countdown;
+
