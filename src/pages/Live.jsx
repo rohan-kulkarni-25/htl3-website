@@ -20,7 +20,6 @@ const Live = () => {
             startTimestamp={startTimestamp}
             endTimestamp={endTimestamp}
           />
-          <div></div>
           <div
             style={{ height: "99%" }}
             className=" m-1  from-black bg-countdown bg-cover bg-no-repeat  to-gray-500 overflow-hidden"
@@ -57,12 +56,12 @@ const Live = () => {
           </div>
         </div>
 
-        <div
+        {/* <div
           style={{ width: "25%" }}
           className="bg-white h-full   rounded-md p-1 bg-gradient-to-br from-teal-500 to-purple-500"
         >
           <TweetsContainer />
-        </div>
+        </div> */}
       </div>
     </div>
   );
