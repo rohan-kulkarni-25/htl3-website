@@ -21,7 +21,7 @@ const Live = () => {
             endTimestamp={endTimestamp}
           />
           <div
-            style={{ height: "99%" }}
+            style={{ height: "90%" }}
             className=" m-1  from-black bg-countdown bg-cover bg-no-repeat  to-gray-500 overflow-hidden"
           >
             <div className="h-full  relative bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text overflow-hidden">
@@ -33,7 +33,8 @@ const Live = () => {
               <Schedule />
             </div>
           </div>
-          <div
+        </div>
+        {/* <div
             style={{ height: "99%", width: "30%" }}
             className="  rounded-md flex flex-col gap-4 "
           >
@@ -53,9 +54,7 @@ const Live = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-
+          </div> */}
         {/* <div
           style={{ width: "25%" }}
           className="bg-white h-full   rounded-md p-1 bg-gradient-to-br from-teal-500 to-purple-500"
