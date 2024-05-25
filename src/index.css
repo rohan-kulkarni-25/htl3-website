@@ -62,3 +62,17 @@
   ); /* Adjusted gradient on hover */
   border-radius: 1rem;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(calc(-100% + 1em)); /* Adjust this value as needed */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 50s linear infinite; /* Adjust duration as needed */
+}
+

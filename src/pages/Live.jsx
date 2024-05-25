@@ -1,19 +1,45 @@
 import AgendaRow from "../components/live/AgendaRow";
 import Countdown from "../components/live/Countdown";
 import { Tweet } from "react-tweet";
+import Schedule from "../components/live/Schedule";
+import { TwitterTweetEmbed } from "react-twitter-embed";
+import TweetsContainer from "../components/live/TweetContainer";
 // import Tweet from 'react-tweet'
+const calculateTimestampForTomorrow = (hours, minutes) => {
+  const now = new Date();
+  const tomorrow = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate() + 1,
+    hours,
+    minutes,
+    0,
+    0
+  );
+  return tomorrow.getTime();
+};
 
 const Live = () => {
+  const startTimestamp = new Date("2024-05-25T11:40:00").getTime();
+  const endTimestamp = new Date("2024-05-26T01:40:00").getTime();
+
   return (
-    <div className="bg-black w-screen h-screen overflow-hidden flex justify-center items-center">
+    <div className="bg-black px-8 w-screen h-screen overflow-hidden flex justify-center items-center">
       <div
         style={{ height: "96%" }}
         className=" w-full flex m-4  rounded-md gap-4 "
       >
         <div
-          style={{ width: "40%" }}
+          style={{ width: "75%" }}
           className=" h-full   my-auto rounded-md bg-gradient-to-br from-teal-500 to-purple-500 "
         >
+                    <Countdown
+            startTimestamp={startTimestamp}
+            endTimestamp={endTimestamp}
+          />
+          <div>
+            
+          </div>
           <div
             style={{ height: "99%" }}
             className=" m-1  from-black bg-countdown bg-cover bg-no-repeat  to-gray-500 overflow-hidden"
@@ -24,53 +50,33 @@ const Live = () => {
                 alt=""
                 className="absolute  h-96 right-0"
               />
-              <div className=" h-full flex flex-col items-start">
-                <p className="mt-12 ml-8 font-justiceLeague text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text text-6xl ">
-                  AGENDA
-                </p>
-                <div className="flex flex-col place-self-center gap-4 my-12 mx-12 h-96">
-                  {/* ONE ROW */}
-                  <AgendaRow />
-                  <AgendaRow />
-                  <AgendaRow current={true} />
-                  <AgendaRow />
-                  <AgendaRow />
-                  <AgendaRow />
-                </div>
-                <div className="absolute bottom-0 w-full ">
-                  <img
-                    className="w-72 bottom-2 mx-auto p-4"
-                    src="https://res.cloudinary.com/dw58xmffd/image/upload/v1716085632/Group_1261154003_azgtnv.png"
-                  />
-                </div>
-              </div>
+              <Schedule />
+            </div>
+          </div>
+          <div
+          style={{ height: "99%", width: "30%" }}
+          className="  rounded-md flex flex-col gap-4 "
+        >
+
+          <div className="bg-white h-1/3 w-full rounded-md p-1 bg-gradient-to-br from-teal-500 to-purple-500">
+            <div
+              style={{ height: "100%" }}
+              className="bg-countdown bg-no-repeat bg-cover my-auto rounded-md from-black to-gray-500 flex flex-col items-center justify-center"
+            >
+              <p className=" text-center text-white 
+              px-4 tracking-wide text-xl">
+                🚀 Ready to showcase your hackathon triumphs? Head over to hacktheleague.com/tweet and drop your Twitter URL to share your journey with the world! Let's amplify the buzz together. 💬 #HackTheLeague #InnovationUnleashed
+              </p>
             </div>
           </div>
         </div>
+        </div>
+
         <div
-          style={{ height: "99%", width: "70%" }}
-          className="  rounded-md flex flex-col gap-4 "
+          style={{ width: "25%" }}
+          className="bg-white h-full   rounded-md p-1 bg-gradient-to-br from-teal-500 to-purple-500"
         >
-          <Countdown />
-          <div className="bg-white h-2/3 w-full rounded-md p-1 bg-gradient-to-br from-teal-500 to-purple-500">
-            <div
-              style={{ height: "100%", fontSize:"50%"}}
-              className=" bg-countdown   flex flex-wrap justify-evenly overflow-scroll bg-cover my-auto rounded-md from-black  to-gray-500 gap-8 p-4"
-            >
-              <div className="w-1/3 h-fit ">
-                <Tweet id="1791797488007184465"  />
-              </div>
-              <div className="w-1/3">
-                <Tweet id="1791797488007184465"  />
-              </div>
-              <div className="w-1/3 ">
-                <Tweet id="1791797488007184465"  />
-              </div>
-              <div className="w-1/3 ">
-                <Tweet id="1791797488007184465"  />
-              </div>
-            </div>
-          </div>
+          <TweetsContainer />
         </div>
       </div>
     </div>
