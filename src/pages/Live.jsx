@@ -13,7 +13,7 @@ const Live = () => {
         className=" w-full flex m-4  rounded-md gap-4 "
       >
         <div
-          style={{ width: "75%" }}
+          style={{ width: "100%" }}
           className=" h-full   my-auto rounded-md bg-gradient-to-br from-teal-500 to-purple-500 "
         >
           <Countdown
