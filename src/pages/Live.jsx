@@ -13,7 +13,7 @@ const Live = () => {
         className=" w-full flex m-4  rounded-md gap-4 "
       >
         <div
-          style={{ width: "100%" }}
+          style={{ width: "75%" }}
           className=" h-full   my-auto rounded-md bg-gradient-to-br from-teal-500 to-purple-500 "
         >
           <Countdown
@@ -55,12 +55,12 @@ const Live = () => {
               </div>
             </div>
           </div> */}
-        {/* <div
+        <div
           style={{ width: "25%" }}
           className="bg-white h-full   rounded-md p-1 bg-gradient-to-br from-teal-500 to-purple-500"
         >
           <TweetsContainer />
-        </div> */}
+        </div>
       </div>
     </div>
   );

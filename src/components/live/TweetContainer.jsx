@@ -11,8 +11,9 @@ const TweetsContainer = () => {
 
 {
     tweets.map((id)=>{
-        return <TwitterTweetEmbed tweetId={id} key={id} />
-    })
+        // return <TwitterTweetEmbed tweetId={id} key={id} />
+      return <TwitterTweetEmbed tweetId={id} key={id}  />
+})
 }
         
 
