@@ -16,10 +16,10 @@ const Live = () => {
           style={{ width: "100%" }}
           className=" h-full   my-auto rounded-md bg-gradient-to-br from-teal-500 to-purple-500 "
         >
-          {/* <Countdown
+          <Countdown
             startTimestamp={startTimestamp}
             endTimestamp={endTimestamp}
-          /> */}
+          />
           <div
             style={{ height: "99%" }}
             className=" m-1  from-black bg-countdown bg-cover bg-no-repeat  to-gray-500 overflow-hidden"
