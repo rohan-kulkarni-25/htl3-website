@@ -1,7 +1,7 @@
 // export default Schedule
 import React, { useState, useEffect } from "react";
 import AgendaRow from "./AgendaRow";
-// import Reminder from "./Remainder";
+
 
 const calculateTimestamp = (hours, minutes) => {
   const now = new Date();
