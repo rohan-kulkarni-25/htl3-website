@@ -13,6 +13,7 @@ import Sponsors from "./pages/Sponsors.jsx";
 // import ContestArena from "./pages/ContestArena.jsx";
 import AboutUs from "./components/aboutus-section/AboutUs.jsx";
 import RHP from "./pages/RHP.jsx";
+import Live from "./pages/Live.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,9 +29,14 @@ const router = createBrowserRouter([
       { path: "/prizes", element: <Prizes /> },
       { path: "/sponsors", element: <Sponsors /> },
       { path: "/remoteHackerProgram", element: <RHP /> },
+
       // { path: "/evangelists", element: <Evangelists /> },
       // { path: "/contestarena", element: <ContestArena /> },
     ],
+  },
+  {
+    path: "/live",
+    element: <Live />,
   },
 ]);
 

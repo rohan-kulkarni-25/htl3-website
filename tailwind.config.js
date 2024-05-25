@@ -26,6 +26,9 @@ export default {
           "url('https://res.cloudinary.com/dw58xmffd/image/upload/v1706289687/hacktheleague/bg2_obmnbd.svg')",
         frame:
           "url('https://res.cloudinary.com/dw58xmffd/image/upload/v1706289693/hacktheleague/Frame26_hauujp.svg')",
+        countdown:
+          "url('https://res.cloudinary.com/dw58xmffd/image/upload/v1716086262/Group_1261154069_xgkbpo.png')",
+          agend:"url('https://res.cloudinary.com/dw58xmffd/image/upload/v1716086416/Rectangle_40013_aejicu.png')"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
