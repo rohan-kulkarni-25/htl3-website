@@ -4,7 +4,7 @@ import TweetsContainer from "../components/live/TweetContainer";
 
 const Live = () => {
   const startTimestamp = new Date("2024-05-25T11:00:00").getTime();
-  const endTimestamp = new Date("2024-05-26T01:40:00").getTime();
+  const endTimestamp = new Date("2024-05-26T13:40:00").getTime();
 
   return (
     <div className="bg-black px-8 w-screen h-screen overflow-hidden flex justify-center items-center">
