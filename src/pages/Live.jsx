@@ -9,18 +9,18 @@ const Live = () => {
   return (
     <div className="bg-black px-8 w-screen h-screen overflow-hidden flex justify-center items-center">
       <div
-        style={{ height: "96%" }}
+        style={{ height: "98%" }}
         className=" w-full flex m-4  rounded-md gap-4 "
       >
         <div
-          style={{ width: "75%" }}
-          className=" h-full   my-auto rounded-md bg-gradient-to-br from-teal-500 to-purple-500 "
+          style={{ width: "100%" }}
+          className=" h-full flex flex-row justify-center items-center my-auto rounded-md bg-gradient-to-br from-teal-500 to-purple-500 "
         >
           <Countdown
             startTimestamp={startTimestamp}
             endTimestamp={endTimestamp}
           />
-          <div
+          {/* <div
             style={{ height: "90%" }}
             className=" m-1  from-black bg-countdown bg-cover bg-no-repeat  to-gray-500 overflow-hidden"
           >
@@ -32,7 +32,7 @@ const Live = () => {
               />
               <Schedule />
             </div>
-          </div>
+          </div> */}
         </div>
         {/* <div
             style={{ height: "99%", width: "30%" }}
@@ -55,12 +55,12 @@ const Live = () => {
               </div>
             </div>
           </div> */}
-        <div
+        {/* <div
           style={{ width: "25%" }}
           className="bg-white h-full   rounded-md p-1 bg-gradient-to-br from-teal-500 to-purple-500"
         >
           <TweetsContainer />
-        </div>
+        </div> */}
       </div>
     </div>
   );
