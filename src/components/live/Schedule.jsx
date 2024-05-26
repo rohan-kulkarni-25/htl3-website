@@ -14,30 +14,11 @@ const day2StartTime = new Date(day2Date.setHours(9, 15, 0, 0)).getTime(); // Day
 
 // Create the schedule array
 const schedule = [
-  { event: "Check-In Begins", timestamp: day1StartTime },
-  { event: "Check-In Ends", timestamp: new Date(day1StartTime).setHours(10, 30) },
-  { event: "Opening Ceremony", timestamp: new Date(day1StartTime).setHours(11, 0) },
-  { event: "Hacking Starts", timestamp: new Date(day1StartTime).setHours(11, 40) },
-  { event: "Manta Session", timestamp: new Date(day1StartTime).setHours(12, 45) },
-  { event: "ChainGPT Session", timestamp: new Date(day1StartTime).setHours(13, 30) },
-  { event: "Lunch", timestamp: new Date(day1StartTime).setHours(14, 0) },
-  { event: "Bitget Session", timestamp: new Date(day1StartTime).setHours(13, 30) },
-  { event: "Mentoring Round 1 Starts", timestamp: new Date(day1StartTime).setHours(16, 0) },
-  { event: "Mentoring Round 1 Ends", timestamp: new Date(day1StartTime).setHours(16, 45) },
-  { event: "Polygon", timestamp: new Date(day1StartTime).setHours(17, 0) },
-  // { event: "Tea Time", timestamp: new Date(day1StartTime).setHours(18, 15) },
-  { event: "Mentoring Round 2 Starts", timestamp: new Date(day1StartTime).setHours(19, 30) },
-  { event: "Mentoring Round 2 Ends", timestamp: new Date(day1StartTime).setHours(20, 30) },
-  { event: "Dinner", timestamp: new Date(day1StartTime).setHours(21, 0) },
-  { event: "Midnight Snacks", timestamp: new Date(day1StartTime).setHours(23, 0) },
-
-  { event: "Mentoring Round 3 Starts", timestamp: day2StartTime },
-  { event: "Mentoring Round 3 Ends", timestamp: new Date(day2StartTime).setHours(9, 15) },
-  { event: "Breakfast", timestamp: new Date(day2StartTime).setHours(9, 30) },
-  { event: "Hacking Ends", timestamp: new Date(day2StartTime).setHours(13, 40) },
-  { event: "Judging Starts", timestamp: new Date(day2StartTime).setHours(15, 0) },
-  { event: "Judging Ends", timestamp: new Date(day2StartTime).setHours(16, 30) },
-  { event: "Closing Ceremony & Results Announcements", timestamp: new Date(day2StartTime).setHours(17, 0) }
+  { event: "Breakfast", timestamp: new Date(day1StartTime).setHours(9, 30) },
+  { event: "Hacking Ends", timestamp: new Date(day1StartTime).setHours(13, 40) },
+  { event: "Judging Starts", timestamp: new Date(day1StartTime).setHours(15, 0) },
+  { event: "Judging Ends", timestamp: new Date(day1StartTime).setHours(16, 30) },
+  { event: "Closing Ceremony & Results Announcements", timestamp: new Date(day1StartTime).setHours(17, 0) }
 ];
 
 // Sort the events by timestamp in ascending order
