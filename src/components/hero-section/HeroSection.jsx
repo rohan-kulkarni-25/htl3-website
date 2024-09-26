@@ -41,29 +41,9 @@ const HeroSection = () => {
           <div className="text-center text-5xl font-semibold font-mono flex flex-row justify-evenly place-items-center gap-9">
             <div className="flex-1 h-0.5 rounded-sm bg-white" />
             <span className="text-4xl text-white  sm:text-2xl font-mokoto tracking-widest  ">
-              CHAPTER - 3
+              Coming Soon
             </span>
             <div className="flex-1 h-0.5 rounded-sm bg-white" />
-          </div>
-          <div className="flex gap-4 justify-center items-center sm:flex-col  ">
-            <a
-              href="https://maps.app.goo.gl/nTeQAawas7DR4rNQ6"
-              target="_blank"
-              rel="noreferrer"
-              className="flex gap-1 items-center justify-center"
-            >
-              <FaMapPin color="white" className="w-8 h-8 sm:w-6" />
-              <span className="text-white text-3xl sm:text-2xl font-mokoto">
-                JECRC UNIVERSITY
-              </span>
-            </a>
-            <div className="w-0.5 sm:w-px rounded-lg h-8 bg-white sm:hidden" />
-            <div className="flex gap-2  items-center justify-center ">
-              <FaCalendarCheck color="white" className="w-8 h-8 sm:w-6" />
-              <p className="text-white text-3xl sm:text-2xl font-mokoto tracking-widest flex flex-row items-center  justify-center ">
-                25th - 26th May
-              </p>
-            </div>
           </div>
           <div className="flex flex-row sm:flex-row sm:items-center justify-center gap-4  animate-pulse ">
             <a
@@ -72,7 +52,7 @@ const HeroSection = () => {
             >
               <button className="px-6 py-3  border-[#4652DD] bg-none  bg-white hover:text-black ease-in hover:duration-300 border rounded-2xl font-medium font-poppins flex flex-row justify-center gap-4 items-center   text-2xl  sm:text-lg">
                 <MdOutlineDateRange />
-                Register
+                Projects
               </button>
             </a>
             <a
@@ -90,7 +70,7 @@ const HeroSection = () => {
       </div>
 
       <img
-        src="https://res.cloudinary.com/dw58xmffd/image/upload/v1706334583/hacktheleague/Frame26_1_edqiow.png"
+        src="https://res.cloudinary.com/da7oclnod/image/upload/v1727345040/First_uywu5g.png"
         className="aspect-auto flex-1 absolute opacity-50 sm:bottom-10"
       />
     </main>
